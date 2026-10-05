@@ -1,0 +1,14 @@
+// =================================
+//   TYPOGRAPHY
+// =================================
+
+// Imports
+@use '../base' as *;
+
+// Section titles
+.title { @include title(); }
+.subtitle { @include subtitle(); }
+
+// Body text
+.text { @include text(); }
+.text-muted-strong { @include text-muted(); }

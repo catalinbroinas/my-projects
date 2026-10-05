@@ -1,0 +1,9 @@
+// =================================
+//   MASKS
+// =================================
+
+// Imports
+@use '../base' as *;
+
+.mask-light { @include mask-light(); }
+.mask-dark { @include mask-dark(); }

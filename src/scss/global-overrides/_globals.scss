@@ -1,0 +1,18 @@
+// =================================
+//   GLOBAL STYLES
+// =================================
+
+// Imports
+@use '../base/variables' as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-page { background-color: $bg-page; }
+
+.text-body {
+  color: $text-primary;
+  font-family: $font-text, sans-serif;
+  font-size: $fs-base;
+}
