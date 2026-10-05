@@ -1,5 +1,6 @@
 import path from 'path';
 import imagemin from 'vite-plugin-imagemin';
+import react from '@vitejs/plugin-react';
 
 export default {
     base: '/',
@@ -28,6 +29,7 @@ export default {
         },
     },
     plugins: [
+        react(),
         imagemin({
             verbose: true,
             gifsicle: {

@@ -14,11 +14,14 @@
   "license": "ISC",
   "description": "A collection of my web development projects.",
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
     "sass": "^1.79.4",
-    "vite": "^5.4.8",
+    "vite": "^8.3.2",
     "vite-plugin-imagemin": "^0.6.1"
   },
   "dependencies": {
-    "mdb-ui-kit": "^8.0.0"
+    "mdb-ui-kit": "^8.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }
