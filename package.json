@@ -1,5 +1,5 @@
 {
-  "name": "mdbootstrap-5-vite",
+  "name": "my-projects",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -11,9 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Catalin Broinas",
   "license": "ISC",
-  "description": "",
+  "description": "A collection of my web development projects.",
   "devDependencies": {
     "sass": "^1.79.4",
     "vite": "^5.4.8",
