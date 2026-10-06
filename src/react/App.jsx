@@ -1,7 +1,13 @@
 
 function App() {
   return (
-    <h1>React working!</h1>
+    <div className="page-container">
+      <header></header>
+
+      <main></main>
+
+      <footer></footer>
+    </div>
   );
 }
 
