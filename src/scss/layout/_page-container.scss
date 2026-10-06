@@ -1,0 +1,22 @@
+@use '../base/variables' as *;
+
+.page-container {
+  min-height: 100svh;
+  background-color: $bg-page;
+  
+  color: $text-primary;
+  font-family: $font-text;
+  font-size: $fs-base;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 5rem;
+
+  @media (max-width: 1399px) {
+    gap: 4rem;
+  }
+
+  @media (max-width: 991.98px) {
+    gap: 3rem;
+  }
+}

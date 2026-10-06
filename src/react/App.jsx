@@ -1,8 +1,11 @@
+import Intro from "./sections/Intro";
 
 function App() {
   return (
     <div className="page-container">
-      <header></header>
+      <header>
+        <Intro />
+      </header>
 
       <main></main>
 
