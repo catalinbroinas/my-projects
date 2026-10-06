@@ -31,4 +31,24 @@
 
     margin: 0;
   }
+
+  @media (max-width: 991.98px) {
+    &__title {
+      font-size: $fs-xxxl;
+    }
+
+    &__text {
+      font-size: $fs-lg;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    &__title {
+      font-size: $fs-xxl;
+    }
+
+    &__text {
+      font-size: $fs-md;
+    }
+  }
 }
