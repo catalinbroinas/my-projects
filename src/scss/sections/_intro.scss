@@ -10,7 +10,7 @@
 
   &__title {
     @include custom-text(
-      $font-family: $font-title,
+      $font-family: $font,
       $font-weight: 600,
       $font-size: $fs-ultra,
       $color: $text-primary,
@@ -22,7 +22,7 @@
 
   &__text {
     @include custom-text(
-      $font-family: $font-text,
+      $font-family: $font,
       $font-weight: 500,
       $font-size: $fs-xl,
       $color: $text-secondary,
