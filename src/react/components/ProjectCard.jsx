@@ -9,9 +9,12 @@ function ProjectCard() {
           alt="World Cup 2026 preview"
           className="img-fluid"
         />
+
         <a
           href="https://catalinbroinas-world-cup-2026.netlify.app/"
           aria-label="Go to live site"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <span className="d-block mask card-project__mask"></span>
         </a>
@@ -29,19 +32,22 @@ function ProjectCard() {
           Suscipit, repellat.
         </p>
 
-        <div className="card-project__technologies">
-          <span className="card-project__badge">React</span>
-          <span className="card-project__badge">SCSS</span>
-          <span className="card-project__badge">MDB 5</span>
-          <span className="card-project__badge">Vite</span>
-        </div>
+        <ul className="list-unstyled card-project__technologies">
+          <li className="card-project__badge">React</li>
+          <li className="card-project__badge">SCSS</li>
+          <li className="card-project__badge">MDB 5</li>
+          <li className="card-project__badge">Vite</li>
+        </ul>
       </div>
 
       <div className="card-footer card-project__footer">
         <a
           href="https://github.com/catalinbroinas/world-cup-2026"
-          className="btn btn-primary card-project__btn">
-            View Code
+          className="btn btn-primary card-project__btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Code
         </a>
       </div>
     </article>
