@@ -1,9 +1,21 @@
+import { useEffect } from "react";
+
+import { Ripple, initMDB } from "mdb-ui-kit";
+
 import worldCupImg from "../../assets/images/projects/worldCup2026.webp";
 
 function ProjectCard() {
+  useEffect(() => {
+    initMDB({ Ripple });
+  }, []);
+
   return (
     <article className="card card-project">
-      <div className="bg-image hover-overlay">
+      <div 
+        className="bg-image hover-overlay"
+        data-mdb-ripple-init
+        data-mdb-ripple-color="light"
+      >
         <img
           src={worldCupImg}
           alt="World Cup 2026 preview"
