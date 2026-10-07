@@ -1,5 +1,6 @@
 import Intro from "./sections/Intro";
 import ProjectGrid from "./components/ProjectGrid";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <ProjectGrid />
       </main>
 
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
