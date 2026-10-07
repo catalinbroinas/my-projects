@@ -2,6 +2,9 @@ import { useEffect } from "react";
 
 import { Ripple, initMDB } from "mdb-ui-kit";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+
 import worldCupImg from "../../assets/images/projects/worldCup2026.webp";
 
 function ProjectCard() {
@@ -59,6 +62,11 @@ function ProjectCard() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          <FontAwesomeIcon
+            icon={faGithub}
+            className="me-2"
+            aria-hidden="true"
+          />
           View Code
         </a>
       </div>
