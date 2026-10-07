@@ -61,6 +61,8 @@ function ProjectCard() {
           className="btn btn-primary card-project__btn"
           target="_blank"
           rel="noopener noreferrer"
+          data-mdb-ripple-init
+          data-mdb-ripple-color="light"
         >
           <FontAwesomeIcon
             icon={faGithub}
