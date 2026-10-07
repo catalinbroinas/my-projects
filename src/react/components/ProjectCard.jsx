@@ -28,6 +28,13 @@ function ProjectCard() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
           Suscipit, repellat.
         </p>
+
+        <div className="card-project__technologies">
+          <span className="card-project__badge">React</span>
+          <span className="card-project__badge">SCSS</span>
+          <span className="card-project__badge">MDB 5</span>
+          <span className="card-project__badge">Vite</span>
+        </div>
       </div>
 
       <div className="card-footer card-project__footer">
