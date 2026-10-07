@@ -1,4 +1,5 @@
 import Intro from "./sections/Intro";
+import ProjectGrid from "./components/ProjectGrid";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
         <Intro />
       </header>
 
-      <main></main>
+      <main className="container">
+        <ProjectGrid />
+      </main>
 
       <footer></footer>
     </div>

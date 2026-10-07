@@ -1,0 +1,11 @@
+
+function ProjectGrid() {
+  return (
+    <div
+      className="row row-cols-xxl-4 row-cols-lg-3 row-cols-sm-2 row-cols-1 gx-sm-5 gx-0 gy-5"
+    >
+    </div>
+  );
+}
+
+export default ProjectGrid;
