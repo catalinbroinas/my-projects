@@ -8,6 +8,7 @@ import { Input, initMDB } from "mdb-ui-kit";
 import Toolbar from "../components/toolbar/Toolbar";
 import ProjectGrid from "../components/projects/ProjectGrid";
 import SearchBar from "../components/toolbar/SearchBar";
+import ProjectSort from "../components/toolbar/ProjectSort";
 
 function Main() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function Main() {
     <main className="container">
       <Toolbar>
         <SearchBar />
+        <ProjectSort />
       </Toolbar>
       
       <ProjectGrid />
