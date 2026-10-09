@@ -5,7 +5,7 @@ import { Ripple, initMDB } from "mdb-ui-kit";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
-import worldCupImg from "../../assets/images/projects/worldCup2026.webp";
+import worldCupImg from "../../../assets/images/projects/worldCup2026.webp";
 
 function ProjectCard() {
   useEffect(() => {

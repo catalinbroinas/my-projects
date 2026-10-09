@@ -1,5 +1,5 @@
 import Intro from "./sections/Intro";
-import ProjectGrid from "./components/ProjectGrid";
+import ProjectGrid from "./components/projects/ProjectGrid";
 import Footer from "./sections/Footer";
 
 function App() {
