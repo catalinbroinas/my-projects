@@ -1,4 +1,5 @@
 import Intro from "./sections/Intro";
+import Toolbar from "./components/toolbar/Toolbar";
 import ProjectGrid from "./components/projects/ProjectGrid";
 import Footer from "./sections/Footer";
 
@@ -10,6 +11,10 @@ function App() {
       </header>
 
       <main className="container">
+        <Toolbar>
+          {/* Toolbar controls */}
+        </Toolbar>
+        
         <ProjectGrid />
       </main>
 
