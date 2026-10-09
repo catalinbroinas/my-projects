@@ -1,0 +1,8 @@
+@use '../../base/' as *;
+
+.sort {
+  &__select {
+    background-color: $bg-surface;
+    color: $text-primary;
+  }
+}
