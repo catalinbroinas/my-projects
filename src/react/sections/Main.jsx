@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 // MDB
-import { Input, initMDB } from "mdb-ui-kit";
+import { Input, Ripple, initMDB } from "mdb-ui-kit";
 
 // Components
 import Toolbar from "../components/toolbar/Toolbar";
@@ -13,7 +13,7 @@ import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 
 function Main() {
   useEffect(() => {
-    initMDB({ Input })
+    initMDB({ Input, Ripple });
   }, []);
 
   return (
