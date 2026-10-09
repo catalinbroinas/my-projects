@@ -1,0 +1,8 @@
+@use '../../base/' as *;
+
+.technology-filter {
+  &__select {
+    background-color: $bg-surface;
+    color: $text-primary;
+  }
+}
