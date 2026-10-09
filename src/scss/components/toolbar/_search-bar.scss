@@ -1,0 +1,11 @@
+@use '../../base/' as *;
+
+.search-bar {
+  &__field.form-control {
+    background-color: $bg-surface;
+  }
+
+  &__icon.trailing {
+    color: $text-muted;
+  }
+}
