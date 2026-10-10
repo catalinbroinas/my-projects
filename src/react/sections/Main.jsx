@@ -51,17 +51,17 @@ function Main() {
     <main className="container">
       <Toolbar>
         <SearchBar query={query} onQueryChange={setQuery} />
-        
-        <ProjectSort
-          options={projectSortOptions}
-          value={sortOption}
-          onChange={setSortOption}
-        />
 
         <TechnologyFilter 
           options={technologyFilterOptions}
           value={filterOption}
           onChange={setFilterOption}
+        />
+
+        <ProjectSort
+          options={projectSortOptions}
+          value={sortOption}
+          onChange={setSortOption}
         />
       </Toolbar>
       
