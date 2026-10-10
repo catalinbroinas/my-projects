@@ -65,7 +65,13 @@ function Main() {
         />
       </Toolbar>
       
-      <ProjectGrid projects={projectsVisible} />
+      {projectsVisible.length > 0 ? (
+        <ProjectGrid projects={projectsVisible} />
+      ) : (
+        <div className="alert alert-info" role="status">
+          No projects found.
+        </div>
+      )}
     </main>
   );
 }
