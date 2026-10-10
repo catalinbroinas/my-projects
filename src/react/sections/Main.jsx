@@ -13,6 +13,7 @@ import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 
 // Data
 import { projects } from "../data/projects";
+import { projectSortOptions } from "../data/projectSortOptions";
 
 // Utilities
 import { sortProjects } from "../../js/utils/sort";
@@ -24,7 +25,7 @@ function Main() {
 
   // States
   const [query, setQuery] = useState("");
-  const [sortOption, setSortOption] = useState("default");
+  const [sortOption, setSortOption] = useState(projectSortOptions[0].value);
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
@@ -40,7 +41,11 @@ function Main() {
       <Toolbar>
         <SearchBar query={query} onQueryChange={setQuery} />
         
-        <ProjectSort value={sortOption} onChange={setSortOption} />
+        <ProjectSort
+          options={projectSortOptions}
+          value={sortOption}
+          onChange={setSortOption}
+        />
 
         <TechnologyFilter />
       </Toolbar>

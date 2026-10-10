@@ -1,11 +1,5 @@
 
-const sortOptions = [
-  { value: "default", label: "Default order" },
-  { value: "newest-first", label: "Newest first" },
-  { value: "oldest-first", label: "Oldest first" }
-];
-
-function ProjectSort({ value, onChange }) {
+function ProjectSort({ options, value, onChange }) {
   return (
     <div className="input-group sort">
       <select
@@ -14,7 +8,7 @@ function ProjectSort({ value, onChange }) {
        value={value}
        onChange={(e) => onChange(e.target.value)}
       >
-        {sortOptions.map(({ value, label }) => (
+        {options.map(({ value, label }) => (
           <option key={value} value={value}>
             {label}
           </option>
