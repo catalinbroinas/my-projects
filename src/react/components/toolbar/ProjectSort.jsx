@@ -1,14 +1,24 @@
 
-function ProjectSort() {
+const sortOptions = [
+  { value: "default", label: "Default order" },
+  { value: "newest-first", label: "Newest first" },
+  { value: "oldest-first", label: "Oldest first" }
+];
+
+function ProjectSort({ value, onChange }) {
   return (
     <div className="input-group sort">
       <select
        className="form-select sort__select"
        aria-label="Sort projects"
+       value={value}
+       onChange={(e) => onChange(e.target.value)}
       >
-        <option value="default">Default order</option>
-        <option value="newest-first">Newest first</option>
-        <option value="oldest-first">Oldest first</option>
+        {sortOptions.map(({ value, label }) => (
+          <option key={value} value={value}>
+            {label}
+          </option>
+        ))}
       </select>
     </div>
   );
