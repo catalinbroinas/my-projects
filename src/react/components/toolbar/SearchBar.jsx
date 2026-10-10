@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons/faMagnifyingGlass";
 
-function SearchBar() {
+function SearchBar({ query, onQueryChange }) {
   return (
     <div className="form-outline search-bar" data-mdb-input-init>
       <FontAwesomeIcon
@@ -14,6 +14,8 @@ function SearchBar() {
         type="search"
         id="search-project"
         className="form-control search-bar__field"
+        value={query}
+        onChange={(e) => onQueryChange(e.target.value)}
       />
 
       <label htmlFor="search-project" className="form-label">

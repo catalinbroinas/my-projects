@@ -1,5 +1,5 @@
 // React
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // MDB
 import { Input, Ripple, initMDB } from "mdb-ui-kit";
@@ -19,15 +19,26 @@ function Main() {
     initMDB({ Input, Ripple });
   }, []);
 
+  // States
+  const [query, setQuery] = useState("");
+
+  // Processing
+  const normalizedQuery = query.trim().toLowerCase();
+
+  const projectsVisible = projects.filter((project) =>
+    project.name.toLowerCase().includes(normalizedQuery)
+  );
+
   return (
     <main className="container">
       <Toolbar>
-        <SearchBar />
+        <SearchBar query={query} onQueryChange={setQuery} />
+        
         <ProjectSort />
         <TechnologyFilter />
       </Toolbar>
       
-      <ProjectGrid projects={projects} />
+      <ProjectGrid projects={projectsVisible} />
     </main>
   );
 }
