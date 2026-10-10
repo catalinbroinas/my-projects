@@ -6,7 +6,9 @@ function SearchBar({ query, onQueryChange }) {
     <div className="form-outline search-bar" data-mdb-input-init>
       <FontAwesomeIcon
         icon={faMagnifyingGlass}
-        className="trailing search-bar__icon"
+        className={`trailing search-bar__icon${
+          query && " search-bar__icon--hidden"
+        }`}
         aria-hidden="true"
       />
 

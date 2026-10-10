@@ -8,4 +8,8 @@
   &__icon.trailing {
     color: $text-muted;
   }
+
+  &__icon--hidden.trailing {
+    display: none;
+  }
 }
