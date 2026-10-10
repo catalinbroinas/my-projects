@@ -14,6 +14,7 @@ import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 // Data
 import { projects } from "../data/projects";
 import { projectSortOptions } from "../data/projectSortOptions";
+import { technologyFilterOptions } from "../data/technologyFilterOptions";
 
 // Utilities
 import { sortProjects } from "../../js/utils/sort";
@@ -26,15 +27,25 @@ function Main() {
   // States
   const [query, setQuery] = useState("");
   const [sortOption, setSortOption] = useState(projectSortOptions[0].value);
+  const [filterOption, setFilterOption] = useState(technologyFilterOptions[0].value);
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
+  const normalizedFilterOption = filterOption.toLowerCase();
 
   const searchedProjects = projects.filter((project) =>
     project.name.toLowerCase().includes(normalizedQuery)
   );
 
-  const projectsVisible = sortProjects(searchedProjects, sortOption);
+  const filteredProjects = normalizedFilterOption === 'all'
+    ? searchedProjects
+    : searchedProjects.filter((project) =>
+      project.technologies.some(
+        (technology) => technology.toLowerCase() === normalizedFilterOption
+      )
+  );
+
+  const projectsVisible = sortProjects(filteredProjects, sortOption);
 
   return (
     <main className="container">
@@ -47,7 +58,11 @@ function Main() {
           onChange={setSortOption}
         />
 
-        <TechnologyFilter />
+        <TechnologyFilter 
+          options={technologyFilterOptions}
+          value={filterOption}
+          onChange={setFilterOption}
+        />
       </Toolbar>
       
       <ProjectGrid projects={projectsVisible} />
