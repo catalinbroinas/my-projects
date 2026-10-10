@@ -1,9 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
-import worldCupImg from "../../../assets/images/projects/worldCup2026.webp";
+function ProjectCard({ project }) {
+  const {
+    name,
+    imageUrl,
+    period,
+    status,
+    description,
+    technologies,
+    codeLink,
+    siteLink
+  } = project;
 
-function ProjectCard() {
+  const periodEnd = status === "completed"
+    ? period.end
+    : "present";
+
+  const periodDisplayed = period.start === periodEnd
+    ? period.start
+    : `${period.start}–${periodEnd}`;
+
   return (
     <article className="card card-project">
       <div 
@@ -12,14 +29,14 @@ function ProjectCard() {
         data-mdb-ripple-color="light"
       >
         <img
-          src={worldCupImg}
-          alt="World Cup 2026 preview"
+          src={imageUrl}
+          alt={`${name} website screenshot`}
           className="img-fluid"
         />
 
         <a
-          href="https://catalinbroinas-world-cup-2026.netlify.app/"
-          aria-label="Go to live site"
+          href={siteLink}
+          aria-label={`View ${name} live site`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -28,28 +45,35 @@ function ProjectCard() {
       </div>
 
       <div className="card-header card-project__header">
-        <h3 className="card-project__title">World Cup 2026</h3>
+        <h3 className="card-project__title">
+          {name}
+        </h3>
 
-        <span className="card-project__year">2026</span>
+        <span className="card-project__year">
+          {periodDisplayed}
+        </span>
       </div>
 
       <div className="card-body card-project__body">
         <p className="card-project__text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Suscipit, repellat.
+          {description}
         </p>
 
         <ul className="list-unstyled card-project__technologies">
-          <li className="card-project__badge">React</li>
-          <li className="card-project__badge">SCSS</li>
-          <li className="card-project__badge">MDB 5</li>
-          <li className="card-project__badge">Vite</li>
+          {technologies.map((technology) => (
+            <li
+              key={technology}
+              className="card-project__badge"
+            >
+              {technology}
+            </li>
+          ))}
         </ul>
       </div>
 
       <div className="card-footer card-project__footer">
         <a
-          href="https://github.com/catalinbroinas/world-cup-2026"
+          href={codeLink}
           className="btn btn-primary card-project__btn"
           target="_blank"
           rel="noopener noreferrer"

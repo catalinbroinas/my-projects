@@ -11,6 +11,9 @@ import SearchBar from "../components/toolbar/SearchBar";
 import ProjectSort from "../components/toolbar/ProjectSort";
 import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 
+// Data
+import { projects } from "../data/projects";
+
 function Main() {
   useEffect(() => {
     initMDB({ Input, Ripple });
@@ -24,7 +27,7 @@ function Main() {
         <TechnologyFilter />
       </Toolbar>
       
-      <ProjectGrid />
+      <ProjectGrid projects={projects} />
     </main>
   );
 }
