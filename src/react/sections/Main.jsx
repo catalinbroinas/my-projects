@@ -13,8 +13,10 @@ import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 
 // Data
 import { projects } from "../data/projects";
-import { projectSortOptions } from "../data/projectSortOptions";
-import { technologyFilterOptions } from "../data/technologyFilterOptions";
+import {
+  projectSortOptions,
+  technologyFilterOptions
+} from "../data/toolbar/selectOptions";
 
 // Utilities
 import { sortProjects } from "../../js/utils/sort";
