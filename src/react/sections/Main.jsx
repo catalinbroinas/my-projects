@@ -14,6 +14,9 @@ import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 // Data
 import { projects } from "../data/projects";
 
+// Utilities
+import { sortProjects } from "../../js/utils/sort";
+
 function Main() {
   useEffect(() => {
     initMDB({ Input, Ripple });
@@ -21,20 +24,24 @@ function Main() {
 
   // States
   const [query, setQuery] = useState("");
+  const [sortOption, setSortOption] = useState("default");
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
 
-  const projectsVisible = projects.filter((project) =>
+  const searchedProjects = projects.filter((project) =>
     project.name.toLowerCase().includes(normalizedQuery)
   );
+
+  const projectsVisible = sortProjects(searchedProjects, sortOption);
 
   return (
     <main className="container">
       <Toolbar>
         <SearchBar query={query} onQueryChange={setQuery} />
         
-        <ProjectSort />
+        <ProjectSort value={sortOption} onChange={setSortOption} />
+
         <TechnologyFilter />
       </Toolbar>
       
