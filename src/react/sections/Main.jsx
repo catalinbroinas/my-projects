@@ -12,7 +12,7 @@ import ProjectSort from "../components/toolbar/ProjectSort";
 import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 
 // Data
-import { projects } from "../data/projects";
+import { projects } from "../data/projects/projects";
 import {
   projectSortOptions,
   technologyFilterOptions
