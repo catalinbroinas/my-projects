@@ -12,9 +12,9 @@ function ProjectCard({ project }) {
     siteLink
   } = project;
 
-  const periodStart = new Date(period.start).getFullYear();
+  const periodStart = period.start.slice(0, 4);
   const periodEnd = period.end
-    ? new Date(period.end).getFullYear()
+    ? period.end.slice(0, 4)
     : "Present";
   
   const periodDisplayed = periodStart === periodEnd
