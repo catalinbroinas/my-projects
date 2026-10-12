@@ -6,6 +6,7 @@ import {
   PROJECT_CATEGORY,
   PROJECT_ARCHITECTURE
 } from "../../constants/projects";
+import { TECHNOLOGIES } from "../../constants/technologies";
 
 export const projects = [
   // World Cup 2026
@@ -27,7 +28,13 @@ export const projects = [
     description:
       "A responsive multi-page website exploring the 2026 FIFA World Cup, featuring participating teams, stadiums, group standings and the knockout stage.",
 
-    technologies: ["SCSS", "MDBootstrap", "JavaScript", "React", "Vite"],
+    technologies: [
+      TECHNOLOGIES.SCSS.id,
+      TECHNOLOGIES.MDBOOTSTRAP.id,
+      TECHNOLOGIES.JAVASCRIPT.id,
+      TECHNOLOGIES.REACT.id,
+      TECHNOLOGIES.VITE.id
+    ],
 
     codeLink: "https://github.com/catalinbroinas/world-cup-2026",
     siteLink: "https://catalinbroinas-world-cup-2026.netlify.app/"
@@ -52,7 +59,12 @@ export const projects = [
     description:
       "A modern, elegant landing page template for a perfume brand, with a focus on accessibility, clean design, and user experience.",
 
-    technologies: ["SCSS", "MDBootstrap", "JavaScript", "Vite"],
+    technologies: [
+      TECHNOLOGIES.SCSS.id,
+      TECHNOLOGIES.MDBOOTSTRAP.id,
+      TECHNOLOGIES.JAVASCRIPT.id,
+      TECHNOLOGIES.VITE.id
+    ],
 
     codeLink: "https://github.com/catalinbroinas/essentia-ui",
     siteLink: "https://essentia-ui.netlify.app/"
@@ -77,7 +89,13 @@ export const projects = [
     description:
       "A presentation website for a real-world natural products brand, designed to showcase its products and brand identity.",
 
-    technologies: ["SCSS", "MDBootstrap", "JavaScript", "React", "Vite"],
+    technologies: [
+      TECHNOLOGIES.SCSS.id,
+      TECHNOLOGIES.MDBOOTSTRAP.id,
+      TECHNOLOGIES.JAVASCRIPT.id,
+      TECHNOLOGIES.REACT.id,
+      TECHNOLOGIES.VITE.id
+    ],
 
     codeLink: "https://github.com/catalinbroinas/pure-natural",
     siteLink: "https://pure-natural-online.netlify.app/"
@@ -102,7 +120,12 @@ export const projects = [
     description:
       "My personal web development portfolio, showcasing selected projects, technical skills, and professional experience across frontend and backend development.",
 
-    technologies: ["SCSS", "MDBootstrap", "JavaScript", "Vite"],
+    technologies: [
+      TECHNOLOGIES.SCSS.id,
+      TECHNOLOGIES.MDBOOTSTRAP.id,
+      TECHNOLOGIES.JAVASCRIPT.id,
+      TECHNOLOGIES.VITE.id
+    ],
 
     codeLink: "https://github.com/catalinbroinas/personal-portfolio",
     siteLink: "https://catalinbroinas.netlify.app/"
