@@ -15,7 +15,7 @@ export const projects = [
     status: "completed",
 
     description:
-      "A responsive multi-page website exploring the 2026 FIFA World Cup, including participating teams, stadiums, group standings and the knockout stage.",
+      "A responsive multi-page website exploring the 2026 FIFA World Cup, featuring participating teams, stadiums, group standings and the knockout stage.",
 
     technologies: ["SCSS", "MDBootstrap", "JavaScript", "React", "Vite"],
 
