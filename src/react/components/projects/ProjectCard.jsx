@@ -60,12 +60,12 @@ function ProjectCard({ project }) {
         </p>
 
         <ul className="list-unstyled card-project__technologies">
-          {technologies.map((technology) => (
+          {technologies.map(({ id, label}) => (
             <li
-              key={technology}
+              key={id}
               className="card-project__badge"
             >
-              {technology}
+              {label}
             </li>
           ))}
         </ul>

@@ -33,17 +33,16 @@ function Main() {
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
-  const normalizedFilterOption = filterOption.toLowerCase();
 
   const searchedProjects = projects.filter((project) =>
     project.name.toLowerCase().includes(normalizedQuery)
   );
 
-  const filteredProjects = normalizedFilterOption === 'all'
+  const filteredProjects = filterOption === 'all'
     ? searchedProjects
     : searchedProjects.filter((project) =>
       project.technologies.some(
-        (technology) => technology.toLowerCase() === normalizedFilterOption
+        (technology) => technology.id === filterOption
       )
   );
 
