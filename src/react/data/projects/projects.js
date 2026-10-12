@@ -1,5 +1,12 @@
 import { projectImages } from "./projectImages";
 
+import {
+  PROJECT_STATUS,
+  PROJECT_TYPE,
+  PROJECT_CATEGORY,
+  PROJECT_ARCHITECTURE
+} from "../../constants/projects";
+
 export const projects = [
   // World Cup 2026
   {
@@ -12,7 +19,10 @@ export const projects = [
       end: 2026
     },
 
-    status: "completed",
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.MPA,
 
     description:
       "A responsive multi-page website exploring the 2026 FIFA World Cup, featuring participating teams, stadiums, group standings and the knockout stage.",
@@ -34,7 +44,10 @@ export const projects = [
       end: 2025
     },
 
-    status: "completed",
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.SPA,
 
     description:
       "A modern, elegant landing page template for a perfume brand, with a focus on accessibility, clean design, and user experience.",
@@ -56,7 +69,10 @@ export const projects = [
       end: null
     },
 
-    status: "in-progress",
+    status: PROJECT_STATUS.ACTIVE,
+    type: PROJECT_TYPE.CLIENT,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.SPA,
 
     description:
       "A presentation website for a real-world natural products brand, designed to showcase its products and brand identity.",
@@ -78,7 +94,10 @@ export const projects = [
       end: null
     },
 
-    status: "in-progress",
+    status: PROJECT_STATUS.ACTIVE,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.SPA,
 
     description:
       "My personal web development portfolio, showcasing selected projects, technical skills, and professional experience across frontend and backend development.",
