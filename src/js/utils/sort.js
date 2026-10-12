@@ -7,10 +7,10 @@ export function sortProjects(projects, option) {
   return [...projects].sort((a, b) => {
     switch (option) {
       case 'newest-first':
-        return b.period.start - a.period.start;
+        return new Date(b.period.start) - new Date(a.period.start);
 
       case 'oldest-first':
-        return a.period.start - b.period.start;
+        return new Date(a.period.start) - new Date(b.period.start);
 
       default:
         return 0;

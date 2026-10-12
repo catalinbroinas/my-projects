@@ -16,8 +16,8 @@ export const projects = [
     imageUrl: projectImages.worldCup2026,
 
     period: {
-      start: 2026,
-      end: 2026
+      start: "2026-05-23",
+      end: "2026-10-02"
     },
 
     status: PROJECT_STATUS.COMPLETED,
@@ -47,8 +47,8 @@ export const projects = [
     imageUrl: projectImages.essentiaUi,
 
     period: {
-      start: 2025,
-      end: 2025
+      start: "2025-12-03",
+      end: "2025-12-20"
     },
 
     status: PROJECT_STATUS.COMPLETED,
@@ -77,7 +77,7 @@ export const projects = [
     imageUrl: projectImages.pureNatural,
 
     period: {
-      start: 2025,
+      start: "2025-03-26",
       end: null
     },
 
@@ -108,7 +108,7 @@ export const projects = [
     imageUrl: projectImages.personalPortfolio,
 
     period: {
-      start: 2024,
+      start: "2024-10-10",
       end: null
     },
 

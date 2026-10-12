@@ -6,20 +6,20 @@ function ProjectCard({ project }) {
     name,
     imageUrl,
     period,
-    status,
     description,
     technologies,
     codeLink,
     siteLink
   } = project;
 
-  const periodEnd = status === "completed"
-    ? period.end
-    : "present";
-
-  const periodDisplayed = period.start === periodEnd
-    ? period.start
-    : `${period.start}–${periodEnd}`;
+  const periodStart = new Date(period.start).getFullYear();
+  const periodEnd = period.end
+    ? new Date(period.end).getFullYear()
+    : "Present";
+  
+  const periodDisplayed = periodStart === periodEnd
+    ? periodStart
+    : `${periodStart}–${periodEnd}`;
 
   return (
     <article className="card card-project">
