@@ -5,6 +5,10 @@
   background-color: $bg-surface;
   height: 100%;
 
+  &__image {
+    object-fit: cover;
+  }
+
   &__header {
     background-color: $bg-page;
     text-align: center;

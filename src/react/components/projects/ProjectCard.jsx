@@ -24,14 +24,14 @@ function ProjectCard({ project }) {
   return (
     <article className="card card-project">
       <div 
-        className="bg-image hover-overlay"
+        className="bg-image hover-overlay ratio ratio-16x9"
         data-mdb-ripple-init
         data-mdb-ripple-color="light"
       >
         <img
           src={imageUrl}
           alt={`${name} website screenshot`}
-          className="img-fluid"
+          className="card-project__image"
         />
 
         <a
