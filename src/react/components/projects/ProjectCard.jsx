@@ -32,6 +32,7 @@ function ProjectCard({ project }) {
           src={imageUrl}
           alt={`${name} website screenshot`}
           className="card-project__image"
+          loading="lazy"
         />
 
         <a
