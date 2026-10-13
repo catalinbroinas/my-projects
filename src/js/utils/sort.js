@@ -13,6 +13,12 @@ export function sortProjects(projects, option) {
         return new Date(a.period.start) - new Date(b.period.start);
 
       case 'recently-completed':
+        if (a.period.end === null) {
+          return b.period.end === null ? 0 : 1;
+        }
+
+        if (b.period.end === null) return -1;
+
         return new Date(b.period.end) - new Date(a.period.end);
 
       default:
