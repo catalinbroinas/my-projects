@@ -27,7 +27,7 @@ function Intro() {
         <p className="intro__meta">
           <FontAwesomeIcon
             icon={faFolder}
-            className="me-2"
+            className="intro__meta-icon"
             aria-hidden="true"
           />
           {projects.length}{" "}projects
