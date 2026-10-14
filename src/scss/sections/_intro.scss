@@ -103,6 +103,10 @@
     &__text {
       font-size: $fs-lg;
     }
+
+    &__meta {
+      font-size: $fs-lg;
+    }
   }
 
   @media (max-width: 575.98px) {
@@ -112,6 +116,14 @@
 
     &__text {
       font-size: $fs-md;
+    }
+
+    &__meta {
+      font-size: $fs-md;
+    }
+
+    &__item-value {
+      font-size: $fs-lg;
     }
   }
 }
