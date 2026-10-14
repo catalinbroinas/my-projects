@@ -67,7 +67,11 @@ function Main() {
       </Toolbar>
       
       {projectsVisible.length > 0 ? (
-        <ProjectGrid projects={projectsVisible} />
+        <section className="projects">
+          <h2 className="visually-hidden">Projects</h2>
+          
+          <ProjectGrid projects={projectsVisible} />
+        </section>
       ) : (
         <div className="alert alert-info" role="status">
           No projects found.
