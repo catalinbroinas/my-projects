@@ -1,16 +1,15 @@
 import { projects } from "../data/projects/projects";
 
 function Intro() {
-  const technologies = [
-    ...new Set(projects.flatMap(
-      (project) => project.technologies
-    ))
-  ];
+  const technologies = projects.flatMap(
+    (project) => project.technologies
+  );
 
-  const getProjectNumbersByTechnology = (id) => [
-    ...projects.flatMap(
-      (project) => project.technologies
-  )].filter((technology) => technology.id === id).length;
+  const technologiesList = [...new Set(technologies)];
+
+  const countByTechnology = (id) => technologies.filter(
+    (technology) => technology.id === id
+  ).length;
   
   return (
     <section className="intro">
@@ -22,11 +21,11 @@ function Intro() {
         </p>
 
         <ul className="list-unstyled intro__list">
-          {technologies.map(({ id, label }) => (
+          {technologiesList.map(({ id, label }) => (
             <li key={id} className="intro__item">
               <span className="intro__item-label">{label}</span>
               <span className="intro__item-value">
-                {getProjectNumbersByTechnology(id)}
+                {countByTechnology(id)}
               </span>
             </li>
           ))}
