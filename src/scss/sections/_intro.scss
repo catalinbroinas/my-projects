@@ -30,6 +30,22 @@
     margin-bottom: 2rem;
   }
 
+  &__meta {
+    @include custom-text(
+      $font-weight: 600,
+      $font-size: $fs-xl,
+      $color: $text-accent,
+      $line-height: 1.4
+    );
+
+    margin-bottom: 2rem;
+  }
+
+  &__hr {
+    color: $text-muted;
+    margin: 0 0 2rem;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;

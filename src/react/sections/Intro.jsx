@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolder } from "@fortawesome/free-solid-svg-icons/faFolder";
+
+// Data
 import { projects } from "../data/projects/projects";
 
 function Intro() {
@@ -19,6 +23,17 @@ function Intro() {
         <p className="intro__text">
           A collection of my public web development projects.
         </p>
+
+        <p className="intro__meta">
+          <FontAwesomeIcon
+            icon={faFolder}
+            className="me-2"
+            aria-hidden="true"
+          />
+          {projects.length}{" "}projects
+        </p>
+
+        <hr className="intro__hr" aria-hidden="true" />
 
         <ul className="list-unstyled intro__list">
           {technologiesList.map(({ id, label }) => (
