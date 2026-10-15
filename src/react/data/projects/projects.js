@@ -124,9 +124,10 @@ export const projects = [
       "My personal web development portfolio, showcasing selected projects, technical skills, and professional experience across frontend and backend development.",
 
     technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.MDBOOTSTRAP,
-      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.VITE
     ],
 
