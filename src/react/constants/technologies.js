@@ -11,20 +11,20 @@ export const TECHNOLOGIES = {
     label: "HTML",
     imageUrl: htmlIcon
   },
-  REACT: {
-    id: 'react',
-    label: 'React',
-    imageUrl: reactIcon
+  SCSS: {
+    id: 'scss',
+    label: 'SCSS',
+    imageUrl: sassIcon
   },
   JAVASCRIPT: {
     id: 'javascript',
     label: 'JavaScript',
     imageUrl: javaScriptIcon
   },
-  SCSS: {
-    id: 'scss',
-    label: 'SCSS',
-    imageUrl: sassIcon
+  REACT: {
+    id: 'react',
+    label: 'React',
+    imageUrl: reactIcon
   },
   MDBOOTSTRAP: {
     id: 'mdbootstrap',
