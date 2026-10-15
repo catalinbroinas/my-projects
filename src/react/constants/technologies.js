@@ -3,8 +3,14 @@ import javaScriptIcon from "../../assets/icons/technologies/javaScript.svg";
 import sassIcon from "../../assets/icons/technologies/sass.svg";
 import mdbIcon from "../../assets/icons/technologies/mdb.svg";
 import viteIcon from "../../assets/icons/technologies/vite.svg";
+import htmlIcon from "../../assets/icons/technologies/html.svg";
 
 export const TECHNOLOGIES = {
+  HTML: {
+    id: "html",
+    label: "HTML",
+    imageUrl: htmlIcon
+  },
   REACT: {
     id: 'react',
     label: 'React',
