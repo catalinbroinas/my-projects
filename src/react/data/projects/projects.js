@@ -92,10 +92,11 @@ export const projects = [
       "A presentation website for a real-world natural products brand, designed to showcase its products and brand identity.",
 
     technologies: [
-      TECHNOLOGIES.SCSS,
-      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.HTML,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
 
