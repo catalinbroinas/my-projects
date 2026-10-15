@@ -19,9 +19,9 @@ The goal is to make my projects easy to explore and to provide a clear overview 
 ## Technologies
 
 - HTML
+- SCSS
 - JavaScript
 - React
-- SCSS
 - MDBootstrap 5
 - Font Awesome
 - Vite
