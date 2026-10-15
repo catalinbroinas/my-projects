@@ -70,12 +70,7 @@
   }
 
   &__badge {
-    background-color: $bg-section;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-
-    font-size: $fs-sm;
-    color: $text-secondary;
+    width: 2rem;
   }
 
   &__btn.btn.btn-primary {
