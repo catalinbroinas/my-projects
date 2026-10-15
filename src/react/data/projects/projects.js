@@ -61,9 +61,10 @@ export const projects = [
       "A modern, elegant landing page template for a perfume brand, with a focus on accessibility, clean design, and user experience.",
 
     technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.MDBOOTSTRAP,
-      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.VITE
     ],
 
