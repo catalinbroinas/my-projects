@@ -29,10 +29,11 @@ export const projects = [
       "A responsive multi-page website exploring the 2026 FIFA World Cup, featuring participating teams, stadiums, group standings and the knockout stage.",
 
     technologies: [
-      TECHNOLOGIES.SCSS,
-      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.HTML,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
 
