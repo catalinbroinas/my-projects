@@ -30,9 +30,9 @@ export const projects = [
 
     technologies: [
       TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
-      TECHNOLOGIES.SCSS,
       TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
@@ -62,8 +62,8 @@ export const projects = [
 
     technologies: [
       TECHNOLOGIES.HTML,
-      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
@@ -93,9 +93,9 @@ export const projects = [
 
     technologies: [
       TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
-      TECHNOLOGIES.SCSS,
       TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
@@ -125,8 +125,8 @@ export const projects = [
 
     technologies: [
       TECHNOLOGIES.HTML,
-      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.MDBOOTSTRAP,
       TECHNOLOGIES.VITE
     ],
