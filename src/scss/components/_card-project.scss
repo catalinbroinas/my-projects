@@ -17,6 +17,9 @@
 
   &__body {
     background-color: $bg-surface;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   &__footer {
