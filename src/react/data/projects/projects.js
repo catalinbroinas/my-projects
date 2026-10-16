@@ -282,4 +282,34 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/chapter-30",
     siteLink: "https://catalinbroinas-chapter-30.netlify.app/"
   },
+
+  // My Journey in Web Development
+  {
+    id: "journey-of-a-web-developer",
+    name: "My Journey in Web Development",
+    imageUrl: projectImages.myJourney,
+
+    period: {
+      start: "2024-08-10",
+      end: null
+    },
+
+    status: PROJECT_STATUS.ACTIVE,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A personal log documenting my web development journey, weekly progress, learning activities, and projects since August 2023.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/journey-of-a-web-developer",
+    siteLink: "https://catalinbroinas.github.io/journey-of-a-web-developer/"
+  },
 ];
