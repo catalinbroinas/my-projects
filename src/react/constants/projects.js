@@ -20,6 +20,7 @@ export const PROJECT_CATEGORY = {
 };
 
 export const PROJECT_ARCHITECTURE = {
+  STATIC: "static",
   SPA: "SPA",
   MPA: "MPA",
 };
