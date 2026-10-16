@@ -134,4 +134,94 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/personal-portfolio",
     siteLink: "https://catalinbroinas.netlify.app/"
   },
+
+  // Memory Card
+  {
+    id: "memory-card",
+    name: "Memory Card",
+    imageUrl: projectImages.memoryCard,
+
+    period: {
+      start: "2026-04-29",
+      end: "2026-10-03"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A React memory card game where you test your memory by selecting each card only once, built as part of The Odin Project.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/memory-card",
+    siteLink: "https://catalinbroinas-memory-card.netlify.app/"
+  },
+
+  // Quiz Game
+  {
+    id: "quiz-game",
+    name: "Quiz Game",
+    imageUrl: projectImages.quizGame,
+
+    period: {
+      start: "2026-03-04",
+      end: "2026-04-06"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "An interactive quiz game where you choose the category, difficulty, and number of questions.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/quiz-game",
+    siteLink: "https://catalin-quiz-game.netlify.app/"
+  },
+
+  // Guess the Number
+  {
+    id: "guess-the-number",
+    name: "Guess the Number",
+    imageUrl: projectImages.guessTheNumber,
+
+    period: {
+      start: "2026-02-10",
+      end: "2026-04-06"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A number guessing game with single-player and two-player modes and customizable game settings.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/guess-the-number",
+    siteLink: "https://catalin-guess-the-number.netlify.app/"
+  },
 ];
