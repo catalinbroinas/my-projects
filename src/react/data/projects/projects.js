@@ -224,4 +224,62 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/guess-the-number",
     siteLink: "https://catalin-guess-the-number.netlify.app/"
   },
+
+  // A New Chapter
+  {
+    id: "a-new-chapter",
+    name: "A New Chapter",
+    imageUrl: projectImages.aNewChapter,
+
+    period: {
+      start: "2026-08-24",
+      end: "2026-09-09"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A personal vision for the life I want to build, shaped by my values, aspirations, experiences, and lessons learned.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/a-new-chapter",
+    siteLink: "https://catalinbroinas-a-new-chapter.netlify.app/"
+  },
+
+  // Chapter 30
+  {
+    id: "chapter-30",
+    name: "Chapter 30",
+    imageUrl: projectImages.chapter30,
+
+    period: {
+      start: "2026-08-17",
+      end: "2026-09-11"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A personal reflection on turning 30, the goals I want to pursue, and the person I want to become.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/chapter-30",
+    siteLink: "https://catalinbroinas-chapter-30.netlify.app/"
+  },
 ];

@@ -4,8 +4,9 @@ import personalPortfolioImg from "../../../assets/images/projects/personal-portf
 import pureNaturalImg from "../../../assets/images/projects/pure-natural.webp";
 import memoryCardImg from "../../../assets/images/projects/memory-card.webp";
 import quizGameImg from "../../../assets/images/projects/quiz-game.webp";
-
 import guessTheNumberImg from "../../../assets/images/projects/guess-the-number.webp";
+import chapter30Img from "../../../assets/images/projects/chapter-30.webp";
+import aNewChapterImg from "../../../assets/images/projects/a-new-chapter.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -14,5 +15,7 @@ export const projectImages = {
   pureNatural: pureNaturalImg,
   memoryCard: memoryCardImg,
   quizGame: quizGameImg,
-  guessTheNumber: guessTheNumberImg
+  guessTheNumber: guessTheNumberImg,
+  chapter30: chapter30Img,
+  aNewChapter: aNewChapterImg
 };
