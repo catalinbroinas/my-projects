@@ -17,6 +17,7 @@ export const PROJECT_CATEGORY = {
   TEMPLATE: 'Template',
   GAME: 'Game',
   TOOL: 'Tool',
+  DASHBOARD: 'Dashboard',
 };
 
 export const PROJECT_ARCHITECTURE = {
