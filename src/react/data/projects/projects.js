@@ -312,4 +312,125 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/journey-of-a-web-developer",
     siteLink: "https://catalinbroinas.github.io/journey-of-a-web-developer/"
   },
+
+  // English League Two Grounds
+  {
+    id: "english-league-two-grounds",
+    name: "English League Two Grounds",
+    imageUrl: projectImages.englishLeagueTwoGrounds,
+
+    period: {
+      start: "2025-05-24",
+      end: "2025-08-23"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A React application featuring all English League Two stadiums, with details about each ground.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/league-two-grounds",
+    siteLink: "https://catalinbroinas.github.io/league-two-grounds/"
+  },
+
+  // CV Generator
+  {
+    id: "cv-generator",
+    name: "CV Generator",
+    imageUrl: projectImages.cvGenerator,
+
+    period: {
+      start: "2025-04-15",
+      end: "2025-05-09"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A React application for creating and editing a CV using user-provided information.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/cv-application",
+    siteLink: "https://cv-catalinbroinas.netlify.app/"
+  },
+
+  // Football Players
+  {
+    id: "football-players",
+    name: "Football Players",
+    imageUrl: projectImages.footballPlayers,
+
+    period: {
+      start: "2025-10-21",
+      end: "2025-11-18"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A React application for browsing football players, with filtering, sorting, and name-based search.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/football-players",
+    siteLink: "https://catalinbroinas.github.io/football-players/"
+  },
+
+  // Card Players
+  {
+    id: "card-players",
+    name: "Card Players",
+    imageUrl: projectImages.cardPlayers,
+
+    period: {
+      start: "2025-11-20",
+      end: "2025-12-01"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A React application for browsing card player data, with customizable display options, sorting, and name-based search.",
+
+    technologies: [
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.REACT,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/card-players",
+    siteLink: "https://catalinbroinas.github.io/card-players/"
+  },
 ];
