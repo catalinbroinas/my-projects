@@ -4,6 +4,7 @@ import sassIcon from "../../assets/icons/technologies/sass.svg";
 import mdbIcon from "../../assets/icons/technologies/mdb.svg";
 import viteIcon from "../../assets/icons/technologies/vite.svg";
 import htmlIcon from "../../assets/icons/technologies/html.svg";
+import fontAwesomeIcon from "../../assets/icons/technologies/font-awesome.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -39,6 +40,11 @@ export const TECHNOLOGIES = {
   WEBPACK: {
     id: 'webpack',
     label: 'Webpack',
+  },
+  FONTAWESOME: {
+    id: 'fontawesome',
+    label: 'Font Awesome',
+    imageUrl: fontAwesomeIcon
   },
   PHP: {
     id: 'php',
