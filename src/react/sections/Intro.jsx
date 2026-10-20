@@ -3,13 +3,20 @@ import { faFolder } from "@fortawesome/free-solid-svg-icons/faFolder";
 
 // Data
 import { projects } from "../data/projects/projects";
+import { FEATURED_TECHNOLOGIES } from "../constants/technologies";
 
 function Intro() {
   const technologies = projects.flatMap(
     (project) => project.technologies
   );
+  
+  const featuredTechnologies = FEATURED_TECHNOLOGIES.map(
+    (technology) => technology.id
+  );
 
-  const technologiesList = [...new Set(technologies)];
+  const technologiesList = [...new Set(technologies)].filter(
+    (technology) => featuredTechnologies.includes(technology.id)
+  );
 
   const countByTechnology = (id) => technologies.filter(
     (technology) => technology.id === id

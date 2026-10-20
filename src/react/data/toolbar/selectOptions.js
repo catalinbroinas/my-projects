@@ -1,4 +1,4 @@
-import { TECHNOLOGIES } from "../../constants/technologies";
+import { FEATURED_TECHNOLOGIES } from "../../constants/technologies";
 
 export const projectSortOptions = [
   { value: 'default', label: 'Default order' },
@@ -9,7 +9,7 @@ export const projectSortOptions = [
 
 export const technologyFilterOptions = [
   { value: 'all', label: 'All technologies' },
-  ...Object.values(TECHNOLOGIES).map(({ id, label }) => (
+  ...Object.values(FEATURED_TECHNOLOGIES).map(({ id, label }) => (
     { value: id, label: label }
   )),
 ];
