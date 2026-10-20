@@ -10,17 +10,16 @@ function Intro() {
     (project) => project.technologies
   );
   
-  const featuredTechnologies = FEATURED_TECHNOLOGIES.map(
-    (technology) => technology.id
-  );
-
-  const technologiesList = [...new Set(technologies)].filter(
-    (technology) => featuredTechnologies.includes(technology.id)
-  );
-
   const countByTechnology = (id) => technologies.filter(
     (technology) => technology.id === id
   ).length;
+
+  const technologiesList = FEATURED_TECHNOLOGIES.map(
+    (technology) => ({
+      ...technology,
+      count: countByTechnology(technology.id)
+    })
+  ).filter((technology) => technology.count > 0);
   
   return (
     <section className="intro">
@@ -43,12 +42,10 @@ function Intro() {
         <hr className="intro__hr" aria-hidden="true" />
 
         <ul className="list-unstyled intro__list">
-          {technologiesList.map(({ id, label }) => (
+          {technologiesList.map(({ id, label, count }) => (
             <li key={id} className="intro__item">
               <span className="intro__item-label">{label}</span>
-              <span className="intro__item-value">
-                {countByTechnology(id)}
-              </span>
+              <span className="intro__item-value">{count}</span>
             </li>
           ))}
         </ul>
