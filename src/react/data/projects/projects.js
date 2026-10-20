@@ -307,7 +307,8 @@ export const projects = [
       TECHNOLOGIES.HTML,
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
-      TECHNOLOGIES.MDBOOTSTRAP
+      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.JSON
     ],
 
     codeLink: "https://github.com/catalinbroinas/journey-of-a-web-developer",
