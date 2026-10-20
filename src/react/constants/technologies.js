@@ -5,6 +5,7 @@ import mdbIcon from "../../assets/icons/technologies/mdb.svg";
 import viteIcon from "../../assets/icons/technologies/vite.svg";
 import htmlIcon from "../../assets/icons/technologies/html.svg";
 import fontAwesomeIcon from "../../assets/icons/technologies/font-awesome.svg";
+import jsonIcon from "../../assets/icons/technologies/json.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -45,6 +46,11 @@ export const TECHNOLOGIES = {
     id: 'fontawesome',
     label: 'Font Awesome',
     imageUrl: fontAwesomeIcon
+  },
+  JSON: {
+    id: 'json',
+    label: 'JSON',
+    imageUrl: jsonIcon
   },
   PHP: {
     id: 'php',
