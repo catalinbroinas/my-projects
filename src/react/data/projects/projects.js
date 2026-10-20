@@ -34,6 +34,7 @@ export const projects = [
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
       TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
 
@@ -65,6 +66,7 @@ export const projects = [
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
 
@@ -97,6 +99,7 @@ export const projects = [
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
       TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
 
@@ -128,6 +131,7 @@ export const projects = [
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
 
@@ -248,7 +252,8 @@ export const projects = [
     technologies: [
       TECHNOLOGIES.HTML,
       TECHNOLOGIES.SCSS,
-      TECHNOLOGIES.MDBOOTSTRAP
+      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME
     ],
 
     codeLink: "https://github.com/catalinbroinas/a-new-chapter",
