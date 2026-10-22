@@ -73,7 +73,11 @@
   }
 
   &__badge {
-    width: 2rem;
+    width: 1.75rem;
+
+    @media (max-width: 1399.98px) {
+      width: 1.5rem;
+    }
   }
 
   &__btn.btn.btn-primary {
