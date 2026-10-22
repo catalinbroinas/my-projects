@@ -51,19 +51,32 @@ function Main() {
   return (
     <main className="container">
       <Toolbar>
-        <SearchBar query={query} onQueryChange={setQuery} />
+        <div className="toolbar__meta">
+          Showing{" "}
+          <strong className="toolbar__meta-value">
+            {projectsVisible.length}
+          </strong>{" "}
+          projects
+        </div>
 
-        <TechnologyFilter 
-          options={technologyFilterOptions}
-          value={filterOption}
-          onChange={setFilterOption}
-        />
+        <div className="toolbar__controls">
+          <SearchBar
+            query={query}
+            onQueryChange={setQuery}
+          />
 
-        <ProjectSort
-          options={projectSortOptions}
-          value={sortOption}
-          onChange={setSortOption}
-        />
+          <TechnologyFilter
+            options={technologyFilterOptions}
+            value={filterOption}
+            onChange={setFilterOption}
+          />
+
+          <ProjectSort
+            options={projectSortOptions}
+            value={sortOption}
+            onChange={setSortOption}
+          />
+        </div>
       </Toolbar>
       
       {projectsVisible.length > 0 ? (
