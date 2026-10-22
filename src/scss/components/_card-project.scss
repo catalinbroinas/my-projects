@@ -49,7 +49,7 @@
     @include custom-text(
       $font-weight: 500,
       $font-size: $fs-sm,
-      $color: $text-primary,
+      $color: $text-secondary,
       $line-height: 1.1
     );
   }
