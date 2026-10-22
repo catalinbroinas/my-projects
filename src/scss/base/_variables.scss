@@ -28,17 +28,18 @@ $text-accent: #0d47a1;
 // Fonts
 $font: "Roboto", Arial, Helvetica, sans-serif;
 
-// Font sizes
+// Base
 $fs-base: 1rem;
-$fs-sm: 0.875rem;
-$fs-md: 1rem;
-$fs-lg: 1.25rem;
-$fs-xl: 1.5rem;
-$fs-xxl: 2rem;
-$fs-xxxl: 3rem;
-$fs-ultra: 4rem;
+
+// Font size scale
+$fs-sm: $fs-base * 0.875;
+$fs-lg: $fs-base * 1.25;
+$fs-xl: $fs-base * 1.5;
+$fs-2xl: $fs-base * 2;
+$fs-3xl: $fs-base * 3;
+$fs-4xl: $fs-base * 4;
 
 // Card font sizes
-$fs-card-title: 1.35rem;
-$fs-card-subtitle: 1.1rem;
-$fs-card-text: 1rem;
+$fs-card-title: $fs-base * 1.35;
+$fs-card-subtitle: $fs-base * 1.125;
+$fs-card-text: $fs-base;
