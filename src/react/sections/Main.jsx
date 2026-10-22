@@ -56,7 +56,7 @@ function Main() {
           <strong className="toolbar__meta-value">
             {projectsVisible.length}
           </strong>{" "}
-          projects
+          {projectsVisible.length === 1 ? "project" : "projects"}
         </div>
 
         <div className="toolbar__controls">
