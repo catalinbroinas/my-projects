@@ -124,5 +124,14 @@
     &__meta {
       font-size: $fs-base;
     }
+    
+    &__list {
+      gap: 1.5rem;
+      padding-inline: 0.5rem;
+    }
+
+    &__item-icon {
+      width: $fs-2xl + 0.5rem;
+    }
   }
 }
