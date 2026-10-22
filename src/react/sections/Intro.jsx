@@ -42,10 +42,11 @@ function Intro() {
         <hr className="intro__hr" aria-hidden="true" />
 
         <ul className="list-unstyled intro__list">
-          {technologiesList.map(({ id, label, count }) => (
+          {technologiesList.map(({ id, label, imageUrl, count }) => (
             <li key={id} className="intro__item">
-              <span className="intro__item-label">{label}</span>
+              <img src={imageUrl} alt={label} className="intro__item-icon" />
               <span className="intro__item-value">{count}</span>
+              <span className="intro__item-label">projects</span>
             </li>
           ))}
         </ul>
