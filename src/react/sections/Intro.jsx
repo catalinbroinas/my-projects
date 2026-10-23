@@ -1,11 +1,21 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder } from "@fortawesome/free-solid-svg-icons/faFolder";
 
+// React
+import { useEffect } from "react";
+
+// MDB
+import { Tooltip, initMDB } from "mdb-ui-kit";
+
 // Data
 import { projects } from "../data/projects/projects";
 import { FEATURED_TECHNOLOGIES } from "../constants/technologies";
 
 function Intro() {
+   useEffect(() => {
+    initMDB({ Tooltip });
+  }, []);
+  
   const technologies = projects.flatMap(
     (project) => project.technologies
   );
@@ -44,7 +54,13 @@ function Intro() {
         <ul className="list-unstyled intro__list">
           {technologiesList.map(({ id, label, imageUrl, count }) => (
             <li key={id} className="intro__item">
-              <img src={imageUrl} alt={label} className="intro__item-icon" />
+              <img
+                src={imageUrl}
+                alt={label}
+                className="intro__item-icon"
+                data-mdb-tooltip-init
+                title={label}
+              />
               <span className="intro__item-value">{count}</span>
               <span className="intro__item-label">projects</span>
             </li>
