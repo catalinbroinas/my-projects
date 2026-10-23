@@ -26,3 +26,19 @@
 - **Source:** https://www.svgrepo.com/svg/314328/mdb
 - **License:** CC0 License
 - **Uploader:** SVG Repo
+
+### HTML
+- **Source:** https://www.svgrepo.com/svg/452228/html-5
+- **License:** CC0 License
+- **Uploader:** SVG Repo
+
+### Font Awesome
+- **Source:** https://www.svgrepo.com/svg/353754/font-awesome
+- **License:** CC0 License (as listed on SVG Repo)
+- **Uploader:** SVG Repo
+- **Note:** Font Awesome's logo may be subject to separate trademark and logo usage guidelines.
+
+### JSON
+- **Source:** https://www.svgrepo.com/svg/394236/json
+- **License:** CC0 License
+- **Uploader:** SVG Repo
