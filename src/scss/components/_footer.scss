@@ -6,6 +6,17 @@
 @use '../base/' as *;
 
 .footer {
+  &__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $bg-section;
+    padding: 1rem 3rem;
+
+    gap: 1rem;
+  }
+
   &__text {
     background-color: $bg-section;
     padding: 1rem 3rem;
