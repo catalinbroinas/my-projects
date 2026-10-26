@@ -3,6 +3,7 @@
 // =================================
 
 // Imports
+@use 'sass:color';
 @use '../base/' as *;
 
 .footer {
@@ -17,8 +18,29 @@
     gap: 1rem;
   }
 
+  &__link {
+    @include custom-text(
+      $font-weight: 400,
+      $font-size: $fs-base,
+      $color: $text-primary,
+      $line-height: 1.1
+    );
+
+    transition: color 0.25s ease;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $text-accent;
+      }
+    }
+
+    &--icon {
+      font-size: $fs-lg;
+    }
+  }
+
   &__text {
-    background-color: $bg-section;
+    background-color: color.scale($bg-section, $lightness: -5%);
     padding: 1rem 3rem;
     margin: 0;
 
