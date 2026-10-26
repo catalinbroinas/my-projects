@@ -21,16 +21,25 @@ import {
 
 // Utilities
 import { sortProjects } from "../../js/utils/sort";
+import { getAvailableYears } from "../../js/utils/years";
 
 function Main() {
   useEffect(() => {
     initMDB({ Input, Ripple });
   }, []);
 
+  // Data
+  const years = getAvailableYears(projects);
+  const yearOptions = [
+    { value: 'all', label: 'All years' },
+    ...years.map((year) => ({ value: year, label: year })),
+  ];
+
   // States
   const [query, setQuery] = useState("");
   const [sortOption, setSortOption] = useState(projectSortOptions[0].value);
   const [filterOption, setFilterOption] = useState(technologyFilterOptions[0].value);
+  const [yearOption, setYearOption] = useState(yearOptions[0].value);
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
@@ -47,7 +56,13 @@ function Main() {
       )
   );
 
-  const projectsVisible = sortProjects(filteredProjects, sortOption);
+  const filteredByYear = yearOption === 'all'
+    ? filteredProjects
+    : filteredProjects.filter((project) =>
+      Number(project.period.start.slice(0, 4)) === Number(yearOption)
+  );
+
+  const projectsVisible = sortProjects(filteredByYear, sortOption);
 
   return (
     <main className="container">
@@ -72,7 +87,11 @@ function Main() {
             onChange={setFilterOption}
           />
 
-          <YearFilter />
+          <YearFilter
+            options={yearOptions}
+            value={yearOption}
+            onChange={setYearOption}
+          />
 
           <ProjectSort
             options={projectSortOptions}

@@ -1,16 +1,18 @@
 
-function YearFilter() {
+function YearFilter({ options, value, onChange }) {
   return (
     <div className="input-group year-filter">
       <select
         className="form-select year-filter__select"
         aria-label="Filter projects by year"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
       >
-        <option value="all">All years</option>
-        <option value="2026">2026</option>
-        <option value="2025">2025</option>
-        <option value="2024">2024</option>
-        <option value="2023">2023</option>
+        {options.map(({ value, label }) => (
+          <option key={value} value={value}>
+            {label}
+          </option>
+        ))}
       </select>
     </div>
   );
