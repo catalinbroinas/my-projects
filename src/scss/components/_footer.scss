@@ -13,7 +13,7 @@
     align-items: center;
 
     background-color: $bg-section;
-    padding: 1rem 3rem;
+    padding: 1rem;
 
     gap: 0.75rem;
   }
@@ -74,7 +74,7 @@
 
   &__text {
     background-color: color.scale($bg-section, $lightness: -5%);
-    padding: 1rem 3rem;
+    padding: 1rem;
     margin: 0;
 
     @include text-footer;
