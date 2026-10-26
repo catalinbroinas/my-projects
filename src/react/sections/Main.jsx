@@ -10,6 +10,7 @@ import ProjectGrid from "../components/projects/ProjectGrid";
 import SearchBar from "../components/toolbar/SearchBar";
 import ProjectSort from "../components/toolbar/ProjectSort";
 import TechnologyFilter from "../components/toolbar/TechnologyFilter";
+import YearFilter from "../components/toolbar/YearFilter";
 
 // Data
 import { projects } from "../data/projects/projects";
@@ -70,6 +71,8 @@ function Main() {
             value={filterOption}
             onChange={setFilterOption}
           />
+
+          <YearFilter />
 
           <ProjectSort
             options={projectSortOptions}
