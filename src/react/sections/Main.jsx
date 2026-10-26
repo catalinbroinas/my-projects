@@ -30,7 +30,7 @@ function Main() {
 
   // Data
   const years = getAvailableYears(projects);
-  const yearOptions = [
+  const yearFilterOptions = [
     { value: 'all', label: 'All years' },
     ...years.map((year) => ({ value: year, label: year })),
   ];
@@ -38,8 +38,10 @@ function Main() {
   // States
   const [query, setQuery] = useState("");
   const [sortOption, setSortOption] = useState(projectSortOptions[0].value);
-  const [filterOption, setFilterOption] = useState(technologyFilterOptions[0].value);
-  const [yearOption, setYearOption] = useState(yearOptions[0].value);
+  const [technologyFilter, setTechnologyFilter] = useState(
+    technologyFilterOptions[0].value
+  );
+  const [yearFilter, setYearFilter] = useState(yearFilterOptions[0].value);
 
   // Processing
   const normalizedQuery = query.trim().toLowerCase();
@@ -48,21 +50,23 @@ function Main() {
     project.name.toLowerCase().includes(normalizedQuery)
   );
 
-  const filteredProjects = filterOption === 'all'
-    ? searchedProjects
-    : searchedProjects.filter((project) =>
-      project.technologies.some(
-        (technology) => technology.id === filterOption
-      )
+  const technologyFilteredProjects = 
+    technologyFilter === technologyFilterOptions[0].value
+      ? searchedProjects
+      : searchedProjects.filter((project) =>
+        project.technologies.some(
+          (technology) => technology.id === technologyFilter
+        )
   );
 
-  const filteredByYear = yearOption === 'all'
-    ? filteredProjects
-    : filteredProjects.filter((project) =>
-      Number(project.period.start.slice(0, 4)) === Number(yearOption)
+  const yearFilteredProjects = 
+    yearFilter === yearFilterOptions[0].value
+      ? technologyFilteredProjects
+      : technologyFilteredProjects.filter((project) =>
+        project.period.start.startsWith(String(yearFilter))
   );
 
-  const projectsVisible = sortProjects(filteredByYear, sortOption);
+  const projectsVisible = sortProjects(yearFilteredProjects, sortOption);
 
   return (
     <main className="container">
@@ -83,14 +87,14 @@ function Main() {
 
           <TechnologyFilter
             options={technologyFilterOptions}
-            value={filterOption}
-            onChange={setFilterOption}
+            value={technologyFilter}
+            onChange={setTechnologyFilter}
           />
 
           <YearFilter
-            options={yearOptions}
-            value={yearOption}
-            onChange={setYearOption}
+            options={yearFilterOptions}
+            value={yearFilter}
+            onChange={setYearFilter}
           />
 
           <ProjectSort
