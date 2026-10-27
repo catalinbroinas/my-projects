@@ -504,4 +504,35 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/e-pace",
     siteLink: "https://catalinbroinas.github.io/e-pace/"
   },
+
+  // DA Tech Solutions
+  {
+    id: "da-tech-solutions",
+    name: "DA Tech Solutions",
+    imageUrl: projectImages.daTechSolutions,
+
+    period: {
+      start: "2025-03-01",
+      end: null
+    },
+
+    status: PROJECT_STATUS.IN_PROGRESS,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A responsive website template for a technology services company, featuring the main sections needed for a professional business website. The project is currently being refined, with a focus on content, accessibility, performance, and documentation.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/da-tech-solutions",
+    siteLink: null
+  },
 ];

@@ -14,6 +14,7 @@ import footballPlayersImg from "../../../assets/images/projects/football-players
 import cardPlayersImg from "../../../assets/images/projects/card-players.webp";
 import homepageImg from "../../../assets/images/projects/homepage.webp";
 import ePaceImg from "../../../assets/images/projects/e-pace.webp";
+import daTechSolutionsImg from "../../../assets/images/projects/da-tech-solutions.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -31,5 +32,6 @@ export const projectImages = {
   footballPlayers: footballPlayersImg,
   cardPlayers: cardPlayersImg,
   homepage: homepageImg,
-  ePace: ePaceImg
+  ePace: ePaceImg,
+  daTechSolutions: daTechSolutionsImg
 };
