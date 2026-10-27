@@ -6,12 +6,19 @@ import viteIcon from "../../assets/icons/technologies/vite.svg";
 import htmlIcon from "../../assets/icons/technologies/html.svg";
 import fontAwesomeIcon from "../../assets/icons/technologies/font-awesome.svg";
 import jsonIcon from "../../assets/icons/technologies/json.svg";
+import cssIcon from "../../assets/icons/technologies/css.svg";
+import webpackIcon from "../../assets/icons/technologies/webpack.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
     id: "html",
     label: "HTML",
     imageUrl: htmlIcon
+  },
+  CSS: {
+    id: 'css',
+    label: 'CSS',
+    imageUrl: cssIcon
   },
   SCSS: {
     id: 'scss',
@@ -41,6 +48,7 @@ export const TECHNOLOGIES = {
   WEBPACK: {
     id: 'webpack',
     label: 'Webpack',
+    imageUrl: webpackIcon
   },
   FONTAWESOME: {
     id: 'fontawesome',

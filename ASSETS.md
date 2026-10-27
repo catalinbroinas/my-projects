@@ -42,3 +42,13 @@
 - **Source:** https://www.svgrepo.com/svg/394236/json
 - **License:** CC0 License
 - **Uploader:** SVG Repo
+
+### CSS
+- **Source:** https://www.svgrepo.com/svg/373535/css
+- **License:** CC0 License
+- **Uploader:** SVG Repo
+
+### Webpack
+- **Source:** https://www.svgrepo.com/svg/374184/webpack
+- **License:** CC0 License
+- **Uploader:** SVG Repo
