@@ -443,4 +443,65 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/card-players",
     siteLink: "https://catalinbroinas.github.io/card-players/"
   },
+
+  // Homepage
+  {
+    id: "homepage",
+    name: "Homepage",
+    imageUrl: projectImages.homepage,
+
+    period: {
+      start: "2025-03-17",
+      end: "2025-03-22"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A personal homepage featuring an introduction, contact information, and six projects completed as part of The Odin Project curriculum.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.WEBPACK,
+      TECHNOLOGIES.FONTAWESOME
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/homepage",
+    siteLink: "https://catalinbroinas.github.io/homepage/"
+  },
+
+  // E Pace
+  {
+    id: "e-pace",
+    name: "E Pace",
+    imageUrl: projectImages.ePace,
+
+    period: {
+      start: "2025-01-24",
+      end: "2025-02-26"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A website presenting the E Pace social and political program, outlining its proposals, objectives, and proposed actions for Romania. The project adapts content from an existing website into a more structured and modern web experience.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.VITE
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/e-pace",
+    siteLink: "https://catalinbroinas.github.io/e-pace/"
+  },
 ];

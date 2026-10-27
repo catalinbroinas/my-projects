@@ -12,6 +12,8 @@ import englishLeagueTwoGroundsImg from "../../../assets/images/projects/english-
 import cvGeneratorImg from "../../../assets/images/projects/cv-generator.webp";
 import footballPlayersImg from "../../../assets/images/projects/football-players.webp";
 import cardPlayersImg from "../../../assets/images/projects/card-players.webp";
+import homepageImg from "../../../assets/images/projects/homepage.webp";
+import ePaceImg from "../../../assets/images/projects/e-pace.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -27,5 +29,7 @@ export const projectImages = {
   englishLeagueTwoGrounds: englishLeagueTwoGroundsImg,
   cvGenerator: cvGeneratorImg,
   footballPlayers: footballPlayersImg,
-  cardPlayers: cardPlayersImg
+  cardPlayers: cardPlayersImg,
+  homepage: homepageImg,
+  ePace: ePaceImg
 };
