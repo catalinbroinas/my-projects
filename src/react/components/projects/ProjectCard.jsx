@@ -23,10 +23,12 @@ function ProjectCard({ project }) {
 
   return (
     <article className="card card-project">
-      <div 
-        className="bg-image hover-overlay ratio ratio-16x9"
-        data-mdb-ripple-init
-        data-mdb-ripple-color="light"
+      <div
+        className={`bg-image ${siteLink ? 'hover-overlay' : ''} ratio ratio-16x9`}
+        {...(siteLink && {
+          'data-mdb-ripple-init': '',
+          'data-mdb-ripple-color': 'light'
+        })}
       >
         <img
           src={imageUrl}
@@ -35,14 +37,16 @@ function ProjectCard({ project }) {
           loading="lazy"
         />
 
-        <a
-          href={siteLink}
-          aria-label={`View ${name} live site`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="d-block mask card-project__mask"></span>
-        </a>
+        {siteLink && (
+          <a
+            href={siteLink}
+            aria-label={`View ${name} live site`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="d-block mask card-project__mask"></span>
+          </a>
+        )}
       </div>
 
       <div className="card-header card-project__header">
