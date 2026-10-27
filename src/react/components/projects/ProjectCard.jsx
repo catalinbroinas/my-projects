@@ -1,7 +1,18 @@
+// React
+import { useEffect } from "react";
+
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
+// MDB
+import { Ripple, initMDB } from "mdb-ui-kit";
+
 function ProjectCard({ project }) {
+  useEffect(() => {
+      initMDB({ Ripple });
+    }, []);
+
   const {
     name,
     imageUrl,

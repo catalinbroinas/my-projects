@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 // MDB
-import { Input, Ripple, initMDB } from "mdb-ui-kit";
+import { Input, initMDB } from "mdb-ui-kit";
 
 // Components
 import Toolbar from "../components/toolbar/Toolbar";
@@ -25,7 +25,7 @@ import { getAvailableYears } from "../../js/utils/years";
 
 function Main() {
   useEffect(() => {
-    initMDB({ Input, Ripple });
+    initMDB({ Input });
   }, []);
 
   // Data
