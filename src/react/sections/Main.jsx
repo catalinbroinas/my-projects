@@ -1,8 +1,5 @@
 // React
-import { useEffect, useState } from "react";
-
-// MDB
-import { Input, initMDB } from "mdb-ui-kit";
+import { useState } from "react";
 
 // Components
 import Toolbar from "../components/toolbar/Toolbar";
@@ -24,10 +21,6 @@ import { sortProjects } from "../../js/utils/sort";
 import { getAvailableYears } from "../../js/utils/years";
 
 function Main() {
-  useEffect(() => {
-    initMDB({ Input });
-  }, []);
-
   // Data
   const years = getAvailableYears(projects);
   const yearFilterOptions = [
