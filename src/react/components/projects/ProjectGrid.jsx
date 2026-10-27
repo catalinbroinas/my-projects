@@ -1,6 +1,17 @@
+// React
+import { useEffect } from "react";
+
+// MDB
+import { Ripple, initMDB } from "mdb-ui-kit";
+
+// Component
 import ProjectCard from "./ProjectCard";
 
 function ProjectGrid({ projects }) {
+  useEffect(() => {
+    initMDB({ Ripple });
+  }, []);
+
   return (
     <div
       className="row row-cols-lg-3 row-cols-sm-2 row-cols-1 gx-sm-5 gx-0 gy-5"
