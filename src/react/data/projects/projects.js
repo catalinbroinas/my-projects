@@ -626,4 +626,34 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/tic-tac-toe",
     siteLink: "https://catalinbroinas.github.io/tic-tac-toe/"
   },
+
+  // Random Numbers
+  {
+    id: "random-numbers",
+    name: "Random Numbers",
+    imageUrl: projectImages.randomNumbers,
+
+    period: {
+      start: "2023-12-19",
+      end: "2024-01-19"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A customizable random number generator with a modern user interface.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MATERIALDESIGNICONS
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/random-numbers",
+    siteLink: "https://catalinbroinas.github.io/random-numbers/"
+  },
 ];
