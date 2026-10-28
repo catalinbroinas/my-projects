@@ -46,7 +46,8 @@ function Intro() {
             className="intro__meta-icon"
             aria-hidden="true"
           />
-          {projects.length}{" "}projects
+          {projects.length}{" "}
+          {projects.length === 1 ? "project" : "projects"}
         </p>
 
         <hr className="intro__hr" aria-hidden="true" />
@@ -62,7 +63,9 @@ function Intro() {
                 title={label}
               />
               <span className="intro__item-value">{count}</span>
-              <span className="intro__item-label">projects</span>
+              <span className="intro__item-label">
+                {count === 1 ? "project" : "projects"}
+              </span>
             </li>
           ))}
         </ul>
