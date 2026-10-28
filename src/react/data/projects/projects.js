@@ -535,4 +535,34 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/da-tech-solutions",
     siteLink: null
   },
+
+  // EURO 2024
+  {
+    id: "euro-2024",
+    name: "EURO 2024",
+    imageUrl: projectImages.euro2024,
+
+    period: {
+      start: "2024-06-25",
+      end: "2024-10-28"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A static website that dynamically loads and displays data from JSON files, demonstrating JavaScript skills, including asynchronous data handling and DOM manipulation.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/euro-2024",
+    siteLink: "https://catalinbroinas.github.io/euro-2024/index.html"
+  },
 ];
