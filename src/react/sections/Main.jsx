@@ -8,6 +8,7 @@ import SearchBar from "../components/toolbar/SearchBar";
 import ProjectSort from "../components/toolbar/ProjectSort";
 import TechnologyFilter from "../components/toolbar/TechnologyFilter";
 import YearFilter from "../components/toolbar/YearFilter";
+import Alert from "../components/alert/Alert";
 
 // Data
 import { projects } from "../data/projects/projects";
@@ -105,9 +106,7 @@ function Main() {
           <ProjectGrid projects={projectsVisible} />
         </section>
       ) : (
-        <div className="alert alert-info" role="status">
-          No projects found.
-        </div>
+        <Alert />
       )}
     </main>
   );
