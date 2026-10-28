@@ -52,3 +52,8 @@
 - **Source:** https://www.svgrepo.com/svg/374184/webpack
 - **License:** CC0 License
 - **Uploader:** SVG Repo
+
+### Jest
+- **Source:** https://www.svgrepo.com/svg/373700/jest
+- **License:** CC0 License
+- **Uploader:** SVG Repo

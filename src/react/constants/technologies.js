@@ -8,6 +8,7 @@ import fontAwesomeIcon from "../../assets/icons/technologies/font-awesome.svg";
 import jsonIcon from "../../assets/icons/technologies/json.svg";
 import cssIcon from "../../assets/icons/technologies/css.svg";
 import webpackIcon from "../../assets/icons/technologies/webpack.svg";
+import jestIcon from "../../assets/icons/technologies/jest.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -67,6 +68,11 @@ export const TECHNOLOGIES = {
   SQL: {
     id: 'sql',
     label: 'SQL',
+  },
+  JEST: {
+    id: 'jest',
+    label: 'Jest',
+    imageUrl: jestIcon
   },
 };
 
