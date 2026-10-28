@@ -57,3 +57,8 @@
 - **Source:** https://www.svgrepo.com/svg/373700/jest
 - **License:** CC0 License
 - **Uploader:** SVG Repo
+
+### Material Design Icons
+- **Source:** https://www.svgrepo.com/svg/330900/materialdesignicons
+- **License:** Logo License
+- **Uploader:** SVG Repo

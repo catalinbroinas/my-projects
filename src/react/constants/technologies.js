@@ -9,6 +9,7 @@ import jsonIcon from "../../assets/icons/technologies/json.svg";
 import cssIcon from "../../assets/icons/technologies/css.svg";
 import webpackIcon from "../../assets/icons/technologies/webpack.svg";
 import jestIcon from "../../assets/icons/technologies/jest.svg";
+import mdiIcon from "../../assets/icons/technologies/mdi.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -55,6 +56,11 @@ export const TECHNOLOGIES = {
     id: 'fontawesome',
     label: 'Font Awesome',
     imageUrl: fontAwesomeIcon
+  },
+  MATERIALDESIGNICONS: {
+    id: 'materialdesignicons',
+    label: 'Material Design Icons',
+    imageUrl: mdiIcon
   },
   JSON: {
     id: 'json',
