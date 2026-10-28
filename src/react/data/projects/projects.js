@@ -26,7 +26,7 @@ export const projects = [
     architecture: PROJECT_ARCHITECTURE.MPA,
 
     description:
-      "A responsive multi-page website exploring the 2026 FIFA World Cup, featuring participating teams, stadiums, group standings and the knockout stage.",
+      "A responsive multi-page website featuring the 2026 FIFA World Cup teams, stadiums, group standings, and knockout stage.",
 
     technologies: [
       TECHNOLOGIES.HTML,
@@ -124,7 +124,7 @@ export const projects = [
     architecture: PROJECT_ARCHITECTURE.SPA,
 
     description:
-      "My personal web development portfolio, showcasing selected projects, technical skills, and professional experience across frontend and backend development.",
+      "My personal web development portfolio showcasing selected projects, technical skills, and professional experience.",
 
     technologies: [
       TECHNOLOGIES.HTML,
@@ -491,7 +491,7 @@ export const projects = [
     architecture: PROJECT_ARCHITECTURE.STATIC,
 
     description:
-      "A website presenting the E Pace social and political program, outlining its proposals, objectives, and proposed actions for Romania. The project adapts content from an existing website into a more structured and modern web experience.",
+      "A modern, structured website presenting E Pace’s social and political program for Romania, adapted from an existing website with an improved user experience.",
 
     technologies: [
       TECHNOLOGIES.HTML,
@@ -522,7 +522,7 @@ export const projects = [
     architecture: PROJECT_ARCHITECTURE.STATIC,
 
     description:
-      "A responsive website template for a technology services company, featuring the main sections needed for a professional business website. The project is currently being refined, with a focus on content, accessibility, performance, and documentation.",
+      "A responsive website template for a technology services company, designed for a professional online presence.",
 
     technologies: [
       TECHNOLOGIES.HTML,
@@ -553,7 +553,7 @@ export const projects = [
     architecture: PROJECT_ARCHITECTURE.STATIC,
 
     description:
-      "A static website that dynamically loads and displays data from JSON files, demonstrating JavaScript skills, including asynchronous data handling and DOM manipulation.",
+      "A static website that dynamically loads and displays EURO 2024 data from JSON files, using JavaScript asynchronous functions to process and render the content.",
 
     technologies: [
       TECHNOLOGIES.HTML,
