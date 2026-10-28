@@ -565,4 +565,65 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/euro-2024",
     siteLink: "https://catalinbroinas.github.io/euro-2024/index.html"
   },
+
+  // battleship
+  {
+    id: "battleship",
+    name: "Battleship",
+    imageUrl: projectImages.battleship,
+
+    period: {
+      start: "2024-11-05",
+      end: "2024-12-05"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A JavaScript app featuring unit testing with Jest, built to simulate the classic Battleship game.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.JEST,
+      TECHNOLOGIES.FONTAWESOME,
+      TECHNOLOGIES.WEBPACK
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/battleship",
+    siteLink: "https://catalinbroinas.github.io/battleship/"
+  },
+
+  // Tic Tac Toe
+  {
+    id: "tic-tac-toe",
+    name: "Tic Tac Toe",
+    imageUrl: projectImages.ticTacToe,
+
+    period: {
+      start: "2024-02-23",
+      end: "2024-01-29"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A two-player Tic Tac Toe game with player names, win detection, and replay options.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/tic-tac-toe",
+    siteLink: "https://catalinbroinas.github.io/tic-tac-toe/"
+  },
 ];
