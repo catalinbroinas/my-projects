@@ -1,5 +1,9 @@
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+
+// Utilities
+import { createRipple } from "../../utils/ripple";
 
 function ProjectCard({ project }) {
   const {
@@ -24,11 +28,8 @@ function ProjectCard({ project }) {
   return (
     <article className="card card-project">
       <div
-        className={`bg-image ${siteLink ? 'hover-overlay' : ''} ratio ratio-16x9`}
-        {...(siteLink && {
-          'data-mdb-ripple-init': '',
-          'data-mdb-ripple-color': 'light'
-        })}
+        className={`bg-image ${siteLink ? 'hover-overlay ripple' : ''} ratio ratio-16x9`}
+        onPointerDown={siteLink ? createRipple : undefined}
       >
         <img
           src={imageUrl}
@@ -84,11 +85,10 @@ function ProjectCard({ project }) {
       <div className="card-footer card-project__footer">
         <a
           href={codeLink}
-          className="btn btn-primary card-project__btn"
+          className="btn btn-primary card-project__btn ripple"
+          onPointerDown={createRipple}
           target="_blank"
           rel="noopener noreferrer"
-          data-mdb-ripple-init
-          data-mdb-ripple-color="light"
         >
           <FontAwesomeIcon
             icon={faGithub}
