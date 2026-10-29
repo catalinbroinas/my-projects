@@ -10,6 +10,8 @@ import cssIcon from "../../assets/icons/technologies/css.svg";
 import webpackIcon from "../../assets/icons/technologies/webpack.svg";
 import jestIcon from "../../assets/icons/technologies/jest.svg";
 import mdiIcon from "../../assets/icons/technologies/mdi.svg";
+import apiIcon from "../../assets/icons/technologies/api.svg";
+import dateFnsIcon from "../../assets/icons/technologies/date-fns.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -66,6 +68,16 @@ export const TECHNOLOGIES = {
     id: 'json',
     label: 'JSON',
     imageUrl: jsonIcon
+  },
+  DATEFNS: {
+    id: 'datefns',
+    label: 'date-fns',
+    imageUrl: dateFnsIcon
+  },
+  API: {
+    id: 'api',
+    label: 'API',
+    imageUrl: apiIcon
   },
   PHP: {
     id: 'php',

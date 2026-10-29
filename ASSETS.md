@@ -62,3 +62,13 @@
 - **Source:** https://www.svgrepo.com/svg/330900/materialdesignicons
 - **License:** Logo License
 - **Uploader:** SVG Repo
+
+### API
+- **Source:** https://www.svgrepo.com/svg/530439/api-interface
+- **License:** CC0 License
+- **Uploader:** SVG Repo
+
+### date-fns
+- **Source:** https://dashboardicons.com/icons/external/simpleicons/datefns
+- **License:** CC0 License
+- **Uploader:** Dashboard Icons
