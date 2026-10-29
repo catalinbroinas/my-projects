@@ -20,6 +20,10 @@ import battleshipImg from "../../../assets/images/projects/battleship.webp";
 import ticTacToeImg from "../../../assets/images/projects/tic-tac-toe.webp";
 import randomNumbersImg from "../../../assets/images/projects/random-numbers.webp";
 
+import weatherAppImg from "../../../assets/images/projects/weather-app.webp";
+import basicLibraryImg from "../../../assets/images/projects/basic-library.webp";
+import toDoListImg from "../../../assets/images/projects/to-do-list.webp";
+
 export const projectImages = {
   worldCup2026: worldCup2026Img,
   essentiaUi: essentiaUiImg,
@@ -41,5 +45,8 @@ export const projectImages = {
   euro2024: euro2024Img,
   battleship: battleshipImg,
   ticTacToe: ticTacToeImg,
-  randomNumbers: randomNumbersImg
+  randomNumbers: randomNumbersImg,
+  weatherApp: weatherAppImg,
+  toDoList: toDoListImg,
+  basicLibrary: basicLibraryImg
 };

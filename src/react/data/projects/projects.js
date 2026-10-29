@@ -656,4 +656,97 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/random-numbers",
     siteLink: "https://catalinbroinas.github.io/random-numbers/"
   },
+
+  // Weather App
+  {
+    id: "weather-app",
+    name: "Weather App",
+    imageUrl: projectImages.weatherApp,
+
+    period: {
+      start: "2024-05-22",
+      end: "2024-06-01"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A weather application that fetches weather data from the WeatherAPI service using JavaScript asynchronous functions.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.API,
+      TECHNOLOGIES.DATEFNS,
+      TECHNOLOGIES.WEBPACK
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/weather-app",
+    siteLink: "https://catalinbroinas.github.io/weather-app/"
+  },
+
+  // ToDo List
+  {
+    id: "todo-list",
+    name: "Todo List",
+    imageUrl: projectImages.toDoList,
+
+    period: {
+      start: "2024-03-18",
+      end: "2024-04-23"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.SPA,
+
+    description:
+      "A task management application built with JavaScript ES modules and factory functions, using the Web Storage API to store data.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.DATEFNS,
+      TECHNOLOGIES.WEBPACK
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/todo-list",
+    siteLink: "https://catalinbroinas.github.io/todo-list/"
+  },
+
+  // Basic Library
+  {
+    id: "basic-library",
+    name: "Basic Library",
+    imageUrl: projectImages.basicLibrary,
+
+    period: {
+      start: "2024-01-22",
+      end: "2024-02-27"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A simple JavaScript library app for adding and editing books, with data stored only in memory and cleared on page reload.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MATERIALDESIGNICONS
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/basic-library",
+    siteLink: "https://catalinbroinas.github.io/basic-library/"
+  },
 ];
