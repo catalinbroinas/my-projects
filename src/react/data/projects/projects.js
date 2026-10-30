@@ -750,6 +750,94 @@ export const projects = [
     siteLink: "https://catalinbroinas.github.io/basic-library/"
   },
 
+  // Rock Paper Scissors
+  {
+    id: "rock-paper-scissors",
+    name: "Rock Paper Scissors",
+    imageUrl: projectImages.rockPaperScissors,
+
+    period: {
+      start: "2023-09-29",
+      end: "2024-01-16"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.GAME,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A Rock Paper Scissors game with optional player and computer names, winner announcements, and replay or reset options.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/rock-paper-scissors",
+    siteLink: "https://catalinbroinas.github.io/rock-paper-scissors/"
+  },
+
+  // Etch a Sketch
+  {
+    id: "etch-a-sketch",
+    name: "Etch a Sketch",
+    imageUrl: projectImages.etchASketch,
+
+    period: {
+      start: "2023-10-25",
+      end: "2023-11-25"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A sketching application with customizable canvas size, pen color, and options to clear the drawing or reset the canvas.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/etch-a-sketch",
+    siteLink: "https://catalinbroinas.github.io/etch-a-sketch/"
+  },
+
+  // Calculator
+  {
+    id: "calculator",
+    name: "Calculator",
+    imageUrl: projectImages.calculator,
+
+    period: {
+      start: "2023-11-04",
+      end: "2023-11-25"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TOOL,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A simple calculator for performing basic arithmetic operations.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.FONTAWESOME
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/calculator",
+    siteLink: "https://catalinbroinas.github.io/calculator/"
+  },
+
   // Restaurant Page
   {
     id: "restaurant-page",

@@ -23,6 +23,9 @@ import weatherAppImg from "../../../assets/images/projects/weather-app.webp";
 import basicLibraryImg from "../../../assets/images/projects/basic-library.webp";
 import toDoListImg from "../../../assets/images/projects/to-do-list.webp";
 import restaurantPageImg from "../../../assets/images/projects/restaurant-page.webp";
+import calculatorImg from "../../../assets/images/projects/calculator.webp";
+import rockPaperScissorsImg from "../../../assets/images/projects/rock-paper-scissors.webp";
+import etchASketchImg from "../../../assets/images/projects/etch-a-sketch.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -49,5 +52,8 @@ export const projectImages = {
   weatherApp: weatherAppImg,
   toDoList: toDoListImg,
   basicLibrary: basicLibraryImg,
-  restaurantPage: restaurantPageImg
+  restaurantPage: restaurantPageImg,
+  calculator: calculatorImg,
+  rockPaperScissors: rockPaperScissorsImg,
+  etchASketch: etchASketchImg
 };
