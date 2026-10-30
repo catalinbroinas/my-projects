@@ -749,4 +749,35 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/basic-library",
     siteLink: "https://catalinbroinas.github.io/basic-library/"
   },
+
+  // Restaurant Page
+  {
+    id: "restaurant-page",
+    name: "Restaurant Page",
+    imageUrl: projectImages.restaurantPage,
+
+    period: {
+      start: "2024-03-05",
+      end: "2024-03-13"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.APPLICATION,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A restaurant-themed JavaScript application with dynamic Home, Menu, and About pages.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MATERIALDESIGNICONS,
+      TECHNOLOGIES.WEBPACK
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/restaurant-page",
+    siteLink: "https://catalinbroinas.github.io/restaurant-page/"
+  },
 ];
