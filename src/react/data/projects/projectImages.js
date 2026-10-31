@@ -27,6 +27,7 @@ import calculatorImg from "../../../assets/images/projects/calculator.webp";
 import rockPaperScissorsImg from "../../../assets/images/projects/rock-paper-scissors.webp";
 import etchASketchImg from "../../../assets/images/projects/etch-a-sketch.webp";
 import signUpImg from "../../../assets/images/projects/sign-up.webp";
+import adminDashboardImg from "../../../assets/images/projects/admin-dashboard.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -57,5 +58,6 @@ export const projectImages = {
   calculator: calculatorImg,
   rockPaperScissors: rockPaperScissorsImg,
   etchASketch: etchASketchImg,
-  signUp: signUpImg
+  signUp: signUpImg,
+  adminDashboard: adminDashboardImg
 };

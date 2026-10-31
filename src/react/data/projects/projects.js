@@ -897,4 +897,32 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/sign-up",
     siteLink: "https://catalinbroinas.github.io/sign-up/"
   },
+
+  // Admin Dashboard
+  {
+    id: "admin-dashboard",
+    name: "Admin Dashboard",
+    imageUrl: projectImages.adminDashboard,
+
+    period: {
+      start: "2023-12-13",
+      end: "2023-12-19"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A responsive admin dashboard interface with a sidebar and data overview.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/admin-dashboard/tree/main",
+    siteLink: "https://catalinbroinas.github.io/admin-dashboard/"
+  },
 ];
