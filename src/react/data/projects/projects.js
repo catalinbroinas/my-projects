@@ -925,4 +925,64 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/admin-dashboard/tree/main",
     siteLink: "https://catalinbroinas.github.io/admin-dashboard/"
   },
+
+  // Happy New Year 2024
+  {
+    id: "happy-new-year-2024",
+    name: "Happy New Year 2024",
+    imageUrl: projectImages.happyNewYear2024,
+
+    period: {
+      start: "2024-01-03",
+      end: "2024-01-18"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.MPA,
+
+    description:
+      "A personal website sharing my goals, reflections, and aspirations for 2024.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/happy-new-year-2024/tree/main",
+    siteLink: "https://catalinbroinas.github.io/happy-new-year-2024/index.html"
+  },
+
+  // Campion
+  {
+    id: "campion",
+    name: "Campion",
+    imageUrl: projectImages.campion,
+
+    period: {
+      start: "2023-08-24",
+      end: "2023-10-05"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.TEMPLATE,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A motivational website template focused on personal growth and positive thinking.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.SCSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/campion",
+    siteLink: "https://catalinbroinas.github.io/campion/"
+  },
 ];

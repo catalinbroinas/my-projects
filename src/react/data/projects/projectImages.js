@@ -28,6 +28,8 @@ import rockPaperScissorsImg from "../../../assets/images/projects/rock-paper-sci
 import etchASketchImg from "../../../assets/images/projects/etch-a-sketch.webp";
 import signUpImg from "../../../assets/images/projects/sign-up.webp";
 import adminDashboardImg from "../../../assets/images/projects/admin-dashboard.webp";
+import happyNewYear2024Img from "../../../assets/images/projects/happy-new-year-2024.webp";
+import campionImg from "../../../assets/images/projects/campion.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -59,5 +61,7 @@ export const projectImages = {
   rockPaperScissors: rockPaperScissorsImg,
   etchASketch: etchASketchImg,
   signUp: signUpImg,
-  adminDashboard: adminDashboardImg
+  adminDashboard: adminDashboardImg,
+  happyNewYear2024: happyNewYear2024Img,
+  campion: campionImg
 };
