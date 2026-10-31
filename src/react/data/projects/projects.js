@@ -868,4 +868,33 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/restaurant-page",
     siteLink: "https://catalinbroinas.github.io/restaurant-page/"
   },
+
+  // Sign Up
+  {
+    id: "sign-up",
+    name: "Sign Up",
+    imageUrl: projectImages.signUp,
+
+    period: {
+      start: "2023-12-07",
+      end: "2023-12-09"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.LEARNING,
+    category: PROJECT_CATEGORY.APPLICATION,
+    architecture: PROJECT_ARCHITECTURE.STATIC,
+
+    description:
+      "A sign-up form with client-side input validation.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/sign-up",
+    siteLink: "https://catalinbroinas.github.io/sign-up/"
+  },
 ];

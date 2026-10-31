@@ -26,6 +26,7 @@ import restaurantPageImg from "../../../assets/images/projects/restaurant-page.w
 import calculatorImg from "../../../assets/images/projects/calculator.webp";
 import rockPaperScissorsImg from "../../../assets/images/projects/rock-paper-scissors.webp";
 import etchASketchImg from "../../../assets/images/projects/etch-a-sketch.webp";
+import signUpImg from "../../../assets/images/projects/sign-up.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -55,5 +56,6 @@ export const projectImages = {
   restaurantPage: restaurantPageImg,
   calculator: calculatorImg,
   rockPaperScissors: rockPaperScissorsImg,
-  etchASketch: etchASketchImg
+  etchASketch: etchASketchImg,
+  signUp: signUpImg
 };
