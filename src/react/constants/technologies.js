@@ -12,6 +12,8 @@ import jestIcon from "../../assets/icons/technologies/jest.svg";
 import mdiIcon from "../../assets/icons/technologies/mdi.svg";
 import apiIcon from "../../assets/icons/technologies/api.svg";
 import dateFnsIcon from "../../assets/icons/technologies/date-fns.svg";
+import phpIcon from "../../assets/icons/technologies/php.svg";
+import mySqlIcon from "../../assets/icons/technologies/mySql.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -82,6 +84,12 @@ export const TECHNOLOGIES = {
   PHP: {
     id: 'php',
     label: 'PHP',
+    imageUrl: phpIcon
+  },
+  MYSQL: {
+    id: 'mysql',
+    label: 'MySQL',
+    imageUrl: mySqlIcon
   },
   SQL: {
     id: 'sql',
