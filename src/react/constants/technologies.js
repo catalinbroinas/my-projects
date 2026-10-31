@@ -14,6 +14,7 @@ import apiIcon from "../../assets/icons/technologies/api.svg";
 import dateFnsIcon from "../../assets/icons/technologies/date-fns.svg";
 import phpIcon from "../../assets/icons/technologies/php.svg";
 import mySqlIcon from "../../assets/icons/technologies/mySql.svg";
+import jQueryIcon from "../../assets/icons/technologies/jQuery.svg";
 
 export const TECHNOLOGIES = {
   HTML: {
@@ -100,6 +101,11 @@ export const TECHNOLOGIES = {
     label: 'Jest',
     imageUrl: jestIcon
   },
+  JQUERY: {
+    id: 'jquery',
+    label: 'jQuery',
+    imageUrl: jQueryIcon
+  }
 };
 
 export const FEATURED_TECHNOLOGIES = [

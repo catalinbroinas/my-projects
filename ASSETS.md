@@ -72,3 +72,18 @@
 - **Source:** https://dashboardicons.com/icons/external/simpleicons/datefns
 - **License:** CC0 License
 - **Uploader:** Dashboard Icons
+
+### PHP
+- **Source:** https://www.svgrepo.com/svg/373966/php
+- **License:** CC0 License
+- **Uploader:** SVG Repo
+
+### MySQL
+- **Source:** https://www.svgrepo.com/svg/303251/mysql-logo
+- **License:** CC0 License
+- **Uploader:** SVG Repo
+
+### jQuery
+- **Source:** https://www.svgrepo.com/svg/353940/jquery
+- **License:** CC0 License
+- **Uploader:** SVG Repo
