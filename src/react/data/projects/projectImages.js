@@ -30,6 +30,8 @@ import signUpImg from "../../../assets/images/projects/sign-up.webp";
 import adminDashboardImg from "../../../assets/images/projects/admin-dashboard.webp";
 import happyNewYear2024Img from "../../../assets/images/projects/happy-new-year-2024.webp";
 import campionImg from "../../../assets/images/projects/campion.webp";
+import liverpoolImg from "../../../assets/images/projects/liverpool.webp";
+import premierLeagueMagazinImg from "../../../assets/images/projects/premier-league-magazin.webp";
 
 export const projectImages = {
   worldCup2026: worldCup2026Img,
@@ -63,5 +65,7 @@ export const projectImages = {
   signUp: signUpImg,
   adminDashboard: adminDashboardImg,
   happyNewYear2024: happyNewYear2024Img,
-  campion: campionImg
+  campion: campionImg,
+  premierLeagueMagazin: premierLeagueMagazinImg,
+  liverpool: liverpoolImg
 };

@@ -985,4 +985,68 @@ export const projects = [
     codeLink: "https://github.com/catalinbroinas/campion",
     siteLink: "https://catalinbroinas.github.io/campion/"
   },
+
+  // Liverpool
+  {
+    id: "liverpool",
+    name: "Liverpool",
+    imageUrl: projectImages.liverpool,
+
+    period: {
+      start: "2019-10-15",
+      end: "2022-09-01"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.MPA,
+
+    description:
+      "My most complex website to date, featuring a PHP and MySQL back-end and a user interface built with MDBootstrap 4.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JAVASCRIPT,
+      TECHNOLOGIES.PHP,
+      TECHNOLOGIES.MYSQL,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/Liverpool",
+    siteLink: null
+  },
+
+  // Premier League Magazin
+  {
+    id: "premier-league-magazin",
+    name: "Premier League Magazin",
+    imageUrl: projectImages.premierLeagueMagazin,
+
+    period: {
+      start: "2018-12-10",
+      end: "2019-09-04"
+    },
+
+    status: PROJECT_STATUS.COMPLETED,
+    type: PROJECT_TYPE.PERSONAL,
+    category: PROJECT_CATEGORY.WEBSITE,
+    architecture: PROJECT_ARCHITECTURE.MPA,
+
+    description:
+      "My first complex web application, featuring a PHP and MySQL back-end and a user interface built with MDBootstrap 4.",
+
+    technologies: [
+      TECHNOLOGIES.HTML,
+      TECHNOLOGIES.CSS,
+      TECHNOLOGIES.JQUERY,
+      TECHNOLOGIES.PHP,
+      TECHNOLOGIES.MYSQL,
+      TECHNOLOGIES.MDBOOTSTRAP
+    ],
+
+    codeLink: "https://github.com/catalinbroinas/PremierLeagueMagazin",
+    siteLink: null
+  },
 ];
