@@ -147,7 +147,7 @@ export const projects = [
 
     period: {
       start: "2026-04-29",
-      end: "2026-10-03"
+      end: "2026-11-07"
     },
 
     status: PROJECT_STATUS.COMPLETED,
@@ -162,6 +162,7 @@ export const projects = [
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.REACT,
+      TECHNOLOGIES.API,
       TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
