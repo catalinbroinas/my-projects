@@ -64,8 +64,8 @@
 - **Uploader:** SVG Repo
 
 ### API
-- **Source:** https://www.svgrepo.com/svg/530439/api-interface
-- **License:** CC0 License
+- **Source:** https://www.svgrepo.com/svg/459153/api
+- **License:** MIT License
 - **Uploader:** SVG Repo
 
 ### date-fns
