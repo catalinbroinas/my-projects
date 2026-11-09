@@ -74,6 +74,7 @@ function ProjectCard({ project }) {
               <img
                 src={imageUrl}
                 alt={label}
+                title={label}
                 className="img-fluid"
                 loading="lazy"
               />
