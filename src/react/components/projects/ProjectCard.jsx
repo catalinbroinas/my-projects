@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 // Utilities
 import { createRipple } from "../../utils/ripple";
 
-function ProjectCard({ project }) {
+function ProjectCard({ project, loading, priority }) {
   const {
     name,
     imageUrl,
@@ -35,7 +35,10 @@ function ProjectCard({ project }) {
           src={imageUrl}
           alt={`${name} website screenshot`}
           className="card-project__image"
-          loading="lazy"
+          width="800"
+          height="450"
+          loading={loading}
+          fetchPriority={priority}
         />
 
         {siteLink && (
