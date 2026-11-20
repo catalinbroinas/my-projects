@@ -514,10 +514,10 @@ export const projects = [
 
     period: {
       start: "2025-03-01",
-      end: null
+      end: "2026-11-20"
     },
 
-    status: PROJECT_STATUS.IN_PROGRESS,
+    status: PROJECT_STATUS.COMPLETED,
     type: PROJECT_TYPE.PERSONAL,
     category: PROJECT_CATEGORY.TEMPLATE,
     architecture: PROJECT_ARCHITECTURE.STATIC,
@@ -530,11 +530,12 @@ export const projects = [
       TECHNOLOGIES.SCSS,
       TECHNOLOGIES.JAVASCRIPT,
       TECHNOLOGIES.MDBOOTSTRAP,
+      TECHNOLOGIES.FONTAWESOME,
       TECHNOLOGIES.VITE
     ],
 
     codeLink: "https://github.com/catalinbroinas/da-tech-solutions",
-    siteLink: null
+    siteLink: "https://da-tech-solutions-ui.netlify.app/"
   },
 
   // EURO 2024

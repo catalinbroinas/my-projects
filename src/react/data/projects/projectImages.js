@@ -14,7 +14,7 @@ import footballPlayersImg from "../../../assets/images/projects/football-players
 import cardPlayersImg from "../../../assets/images/projects/card-players.webp";
 import homepageImg from "../../../assets/images/projects/homepage.webp";
 import ePaceImg from "../../../assets/images/projects/e-pace.webp";
-import daTechSolutionsImg from "../../../assets/images/projects/da-tech-solutions.webp";
+import daTechSolutionsImg from "../../../assets/images/projects/da-tech-solutions-ui.webp";
 import euro2024Img from "../../../assets/images/projects/euro-2024.webp";
 import battleshipImg from "../../../assets/images/projects/battleship.webp";
 import ticTacToeImg from "../../../assets/images/projects/tic-tac-toe.webp";
